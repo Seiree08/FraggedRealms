@@ -1763,3 +1763,1618 @@ BUILD FAILED
 [2024.11.11-09.36.28:918][230]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BrickBreaker/Blueprints/BP_Brick.BP_Brick
 [2024.11.11-09.36.28:919][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.11.11-09.36.28:919][230]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: ================================================
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Total job queries 20, among them cache hits 4 (20.00%)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: RAM used: 393,54 KiB of 819,20 MiB budget. Usage: 0.05%
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Shaders Compiled: 16
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Jobs assigned 16, completed 16 (100%)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Average time worker was idle: 52.41 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Time job spent in pending queue: average 0.20 s, longest 1.02 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Job execution time: average 0.88 s, max 1.14 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Job life time (pending + execution): average 1.08 s, max 1.35
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Shader code size: average 41,893 KiB, min 29,711 KiB, max 60,766 KiB
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.29 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Average processing rate: 6.98 jobs/sec
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Total thread time: 7,01 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Total thread preprocess time: 0,901 s
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Percentage time preprocessing: 12.85%
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Effective parallelization: 3.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.73% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.70% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.68% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.61% of total time (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.15% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.11.11-09.45.03:885][264]LogShaderCompilers: Display: ================================================
+[2024.11.11-09.45.14:779][877]BlueprintLog: New page: Compile BP_Brick
+[2024.11.11-09.45.14:832][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.11-09.45.14:888][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.45.15:018][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Brick" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Brick.uasset" SILENT=true
+[2024.11.11-09.45.15:316][877]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Brick
+[2024.11.11-09.45.15:318][877]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Brick1789E93041C9BF92694B699DA51AFF88.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Brick.uasset'
+[2024.11.11-09.45.15:342][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 453 ms (total: 5.30 sec)
+[2024.11.11-09.45.15:347][877]AssetCheck: New page: Asset Save: BP_Brick
+[2024.11.11-09.45.15:347][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Brick.BP_Brick
+[2024.11.11-09.45.16:852][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.11-09.46.15:030][686]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_BrickBreaker.WB_BrickBreaker
+[2024.11.11-09.46.15:031][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-09.46.15:031][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-09.46.15:039][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-09.46.15:039][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-09.46.15:047][686]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.11.11-09.46.15:427][686]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.11.11-09.46.50:782][796]LogSlate: Took 0.011231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.11.11-09.49.06:569][965]BlueprintLog: New page: Compile BP_Brick
+[2024.11.11-09.49.06:631][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.11-09.52.46:668][443]LogEditorTransaction: Undo Edit Right
+[2024.11.11-09.53.55:230][503]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.11.11-09.53.55:231][503]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.11.11-09.54.53:021][268]BlueprintLog: New page: Compile WB_BrickBreaker
+[2024.11.11-09.54.53:061][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.11-09.54.53:173][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.54.53:564][268]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_BrickBreaker
+[2024.11.11-09.54.53:566][268]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_BrickBreaker294EED68437B7EAEA9DF2E9798AAB529.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_BrickBreaker.uasset'
+[2024.11.11-09.54.53:581][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 407 ms (total: 5.71 sec)
+[2024.11.11-09.54.53:590][268]AssetCheck: New page: Asset Save: WB_BrickBreaker
+[2024.11.11-09.54.53:591][268]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_BrickBreaker.WB_BrickBreaker
+[2024.11.11-09.55.07:256][734]LogSlate: Took 0.007977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.11.11-09.55.17:371][968]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-09.55.17:402][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.11-09.55.17:474][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.55.17:603][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-09.55.17:916][968]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-09.55.17:919][968]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallECEF44DA43A078929D8FAEA3BBADC440.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-09.55.17:936][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 461 ms (total: 6.17 sec)
+[2024.11.11-09.55.17:937][968]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-09.55.17:937][968]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-09.55.18:336][984]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-09.55.18:371][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.11-09.55.25:337][258]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-09.55.25:368][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.11-09.55.25:432][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.55.25:560][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-09.55.25:875][258]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-09.55.25:877][258]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball3DCEB24049B39AFAC5512BAFB78E5052.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-09.55.25:892][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 460 ms (total: 6.63 sec)
+[2024.11.11-09.55.25:894][258]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-09.55.25:894][258]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-09.55.26:020][260]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.11.11-09.56.28:372][854]BlueprintLog: New page: Compile WB_BrickBreaker
+[2024.11.11-09.56.28:404][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.11-09.56.28:441][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.56.28:878][854]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_BrickBreaker
+[2024.11.11-09.56.28:880][854]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_BrickBreaker8BF5E2844DCBB10879DBEEA6031D6EAC.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_BrickBreaker.uasset'
+[2024.11.11-09.56.28:896][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 454 ms (total: 7.08 sec)
+[2024.11.11-09.56.28:907][854]AssetCheck: New page: Asset Save: WB_BrickBreaker
+[2024.11.11-09.56.28:907][854]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_BrickBreaker.WB_BrickBreaker
+[2024.11.11-09.57.49:346][ 80]BlueprintLog: New page: Compile WB_BrickBreaker
+[2024.11.11-09.57.49:376][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.11-09.57.49:405][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.57.49:824][ 80]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_BrickBreaker
+[2024.11.11-09.57.49:826][ 80]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_BrickBreaker88DCB448440F7570ABF09087E88B44F2.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_BrickBreaker.uasset'
+[2024.11.11-09.57.49:840][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 435 ms (total: 7.52 sec)
+[2024.11.11-09.57.49:842][ 80]AssetCheck: New page: Asset Save: WB_BrickBreaker
+[2024.11.11-09.57.49:842][ 80]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_BrickBreaker.WB_BrickBreaker
+[2024.11.11-09.58.56:488][565]BlueprintLog: New page: Compile BP_Paddle
+[2024.11.11-09.58.56:526][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.11-09.58.56:682][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.58.56:798][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Paddle" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset" SILENT=true
+[2024.11.11-09.58.57:099][565]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Paddle
+[2024.11.11-09.58.57:101][565]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Paddle7EE0CFEE480C74AE3BF9D68AA0156AF0.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset'
+[2024.11.11-09.58.57:119][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 436 ms (total: 7.96 sec)
+[2024.11.11-09.58.57:129][565]AssetCheck: New page: Asset Save: BP_Paddle
+[2024.11.11-09.58.57:129][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.11-09.58.59:023][673]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-09.58.59:056][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.11-09.58.59:122][673]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.58.59:243][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-09.58.59:554][673]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-09.58.59:556][673]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallAFF889D44FEF4A49DEFFCE89A1776186.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-09.58.59:569][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 446 ms (total: 8.40 sec)
+[2024.11.11-09.58.59:570][673]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-09.58.59:570][673]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-09.59.19:113][794]LogDerivedDataCache: C:/Users/Samue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.394 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10754 files in 13167 folders with total size 1577 MiB.
+[2024.11.11-09.59.19:774][834]BlueprintLog: New page: Compile BP_Paddle
+[2024.11.11-09.59.19:826][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.11-09.59.19:981][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.59.20:106][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Paddle" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset" SILENT=true
+[2024.11.11-09.59.20:404][834]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Paddle
+[2024.11.11-09.59.20:406][834]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Paddle6843A67342A1B4FCE040EAA706B2DEB0.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset'
+[2024.11.11-09.59.20:419][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 8.84 sec)
+[2024.11.11-09.59.20:430][834]AssetCheck: New page: Asset Save: BP_Paddle
+[2024.11.11-09.59.20:430][834]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.11-09.59.23:372][  6]BlueprintLog: New page: Compile BP_Paddle
+[2024.11.11-09.59.23:402][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.11-09.59.23:547][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.59.23:661][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Paddle" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset" SILENT=true
+[2024.11.11-09.59.23:962][  6]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Paddle
+[2024.11.11-09.59.23:964][  6]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_PaddleE9061D95449916327B6DFBA9481D06EE.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset'
+[2024.11.11-09.59.23:979][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 433 ms (total: 9.27 sec)
+[2024.11.11-09.59.23:998][  6]AssetCheck: New page: Asset Save: BP_Paddle
+[2024.11.11-09.59.23:998][  6]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.11-09.59.45:039][827]BlueprintLog: New page: Compile WB_BrickBreaker
+[2024.11.11-09.59.45:081][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.11-09.59.45:236][827]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-09.59.45:726][827]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_BrickBreaker
+[2024.11.11-09.59.45:729][827]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_BrickBreaker04D9F122475686284D12AB9663A307C5.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_BrickBreaker.uasset'
+[2024.11.11-09.59.45:750][827]LogFileHelpers: InternalPromptForCheckoutAndSave took 513 ms (total: 9.79 sec)
+[2024.11.11-09.59.45:772][827]AssetCheck: New page: Asset Save: WB_BrickBreaker
+[2024.11.11-09.59.45:772][827]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_BrickBreaker.WB_BrickBreaker
+[2024.11.11-10.00.02:919][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.11-10.00.17:184][364]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.11.11-10.00.17:199][364]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.11.11-10.00.17:209][364]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.11.11-10.00.17:245][365]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.11.11-10.00.31:679][229]LogContentBrowser: Attempting asset rename: NewBlueprint -> BallDestroyer
+[2024.11.11-10.00.31:689][229]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.11.11-10.00.44:369][923]LogContentBrowser: Attempting asset rename: BallDestroyer -> BP_BallDestroyer
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.SKEL_BP_BallDestroyer_C:UserConstructionScript' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.SKEL_BP_BallDestroyer_C' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:450][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:451][923]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BrickBreaker/Blueprints/BallDestroyer.PackageMetaData'
+[2024.11.11-10.00.44:454][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.00.44:656][923]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_BallDestroyer
+[2024.11.11-10.00.44:656][923]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallDestroyer1E34BB3745B1416F022246BB3228A914.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_BallDestroyer.uasset'
+[2024.11.11-10.00.44:675][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 10.0 sec)
+[2024.11.11-10.00.44:698][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.11.11-10.00.44:720][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.11.11-10.00.44:737][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.11.11-10.00.44:739][923]AssetCheck: New page: Asset Save: BP_BallDestroyer
+[2024.11.11-10.00.44:739][923]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer
+[2024.11.11-10.00.49:267][185]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer
+[2024.11.11-10.00.49:269][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.00.49:269][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.00.49:461][185]LogViewport: Scene viewport resized to 1166x639, mode Windowed.
+[2024.11.11-10.00.50:914][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.11-10.01.43:288][424]LogEditorTransaction: Undo Modify Component(s)
+[2024.11.11-10.02.28:568][476]BlueprintLog: New page: Compile BP_BallDestroyer
+[2024.11.11-10.02.28:599][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.11.11-10.02.28:611][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.02.28:910][476]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_BallDestroyer
+[2024.11.11-10.02.28:912][476]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallDestroyer4C2B2C624C2FAC9D253DDBA1FEAA75F1.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_BallDestroyer.uasset'
+[2024.11.11-10.02.28:929][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 318 ms (total: 10.3 sec)
+[2024.11.11-10.02.28:932][476]AssetCheck: New page: Asset Save: BP_BallDestroyer
+[2024.11.11-10.02.28:932][476]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer
+[2024.11.11-10.02.56:556][864]BlueprintLog: New page: Compile BP_BallDestroyer
+[2024.11.11-10.02.56:580][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.11-10.02.56:593][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.02.56:851][864]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_BallDestroyer
+[2024.11.11-10.02.56:853][864]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallDestroyer75BA5DCA4093631EDB1B58BCDB3B6888.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_BallDestroyer.uasset'
+[2024.11.11-10.02.56:870][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 276 ms (total: 10.6 sec)
+[2024.11.11-10.02.56:895][864]AssetCheck: New page: Asset Save: BP_BallDestroyer
+[2024.11.11-10.02.56:895][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer
+[2024.11.11-10.02.58:874][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.11-10.03.01:726][126]Cmd: SELECT NONE
+[2024.11.11-10.03.08:931][543]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C
+[2024.11.11-10.03.08:931][543]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C
+[2024.11.11-10.03.08:933][543]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer as actor: BP_BallDestroyer_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_0
+[2024.11.11-10.03.08:936][543]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer as actor: BP_BallDestroyer_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_0
+[2024.11.11-10.03.08:961][543]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.11-10.03.10:388][627]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C
+[2024.11.11-10.03.10:388][627]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C
+[2024.11.11-10.03.10:391][627]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer as actor: BP_BallDestroyer_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+[2024.11.11-10.03.10:391][627]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer as actor: BP_BallDestroyer_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+[2024.11.11-10.03.22:513][334]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.04.17:076][541]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.04.18:968][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.11-10.04.18:975][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.04.19:177][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.11.11-10.04.20:383][649]LogSavePackage: Moving output files for package: /Game/BrickBreaker/BrickBreaker
+[2024.11.11-10.04.20:386][649]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BrickBreakerFB95C8F847AE8B35FC61A3A4D5CD7160.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/BrickBreaker.umap'
+[2024.11.11-10.04.20:425][649]LogFileHelpers: Saving map 'BrickBreaker' took 1.339
+[2024.11.11-10.04.20:439][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.46 sec (total: 12.0 sec)
+[2024.11.11-10.04.20:442][649]AssetCheck: New page: Asset Save: BrickBreaker
+[2024.11.11-10.04.20:442][649]LogContentValidation: Display: Validating /Script/Engine.World /Game/BrickBreaker/BrickBreaker.BrickBreaker
+[2024.11.11-10.04.20:887][672]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.04.20:912][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.04.20:912][672]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:04:20)
+[2024.11.11-10.04.20:912][672]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.04.20:918][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005032s)
+[2024.11.11-10.04.20:918][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.005080s)
+[2024.11.11-10.04.20:936][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.11-10.04.20:937][672]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.04.20:938][672]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.04.20:938][672]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.04.20:939][672]LogPlayLevel: PIE: World Init took: (0.001501s)
+[2024.11.11-10.04.20:939][672]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.04.20:939][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.04.20:939][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.04.20:940][672]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.04.20:940][672]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.04.20:940][672]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.04.20:942][672]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.04.21:171][672]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.04.21:171][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.04.21:171][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.04.21:171][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.04.21:172][672]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.11-10.04.21:172][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.11-10.04.21:174][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.11-10.04.21:174][672]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.11-10.04.21:174][672]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.11-10.04.21:174][672]LogAudio: Display: Audio Device (ID: 8) registered with world 'BrickBreaker'.
+[2024.11.11-10.04.21:174][672]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.11-10.04.21:179][672]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.04.21:180][672]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.04.21
+[2024.11.11-10.04.21:181][672]LogWorld: Bringing up level for play took: 0.001995
+[2024.11.11-10.04.21:184][672]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.11-10.04.21:187][672]PIE: Server logged in
+[2024.11.11-10.04.21:189][672]PIE: Play in editor total start time 0,277 seconds.
+[2024.11.11-10.04.27:868][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.04.27:868][ 68]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.04.27:868][ 68]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.04.27:869][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.04.27:876][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.04.27:880][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.04.27:896][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.04.27:896][ 68]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.11-10.04.27:896][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.11-10.04.27:898][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.11-10.04.27:910][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.11.11-10.04.27:997][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.11-10.05.17:123][747]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.11.11-10.05.17:138][747]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.11.11-10.05.17:147][747]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.11.11-10.05.17:167][748]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.11.11-10.05.25:636][256]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SpawnBall
+[2024.11.11-10.05.25:643][256]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.11.11-10.05.26:216][289]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.05.26:216][289]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.05.26:216][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.05.26:413][289]LogViewport: Scene viewport resized to 1166x639, mode Windowed.
+[2024.11.11-10.07.29:406][217]BlueprintLog: New page: Compile BP_SpawnBall
+[2024.11.11-10.07.29:433][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.11-10.07.29:446][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.07.29:588][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_SpawnBall" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset" SILENT=true
+[2024.11.11-10.07.29:706][217]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_SpawnBall
+[2024.11.11-10.07.29:706][217]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_SpawnBallA5215D834630DF5278FA7EA06880DF69.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset'
+[2024.11.11-10.07.29:727][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 280 ms (total: 12.3 sec)
+[2024.11.11-10.07.29:728][217]AssetCheck: New page: Asset Save: BP_SpawnBall
+[2024.11.11-10.07.29:728][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.08.11:398][473]Cmd: DELETE
+[2024.11.11-10.08.11:398][473]Cmd: ACTOR DELETE
+[2024.11.11-10.08.11:403][473]LogEditorActor: Deleted Actor: BP_Ball_C
+[2024.11.11-10.08.11:421][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.11-10.08.11:425][473]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.11.11-10.08.18:467][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.08.18:575][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_SpawnBall" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset" SILENT=true
+[2024.11.11-10.08.18:696][882]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_SpawnBall
+[2024.11.11-10.08.18:698][882]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_SpawnBall9F4AF1564E50A543CD1E9181AA768C06.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset'
+[2024.11.11-10.08.18:716][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 12.6 sec)
+[2024.11.11-10.08.18:719][882]AssetCheck: New page: Asset Save: BP_SpawnBall
+[2024.11.11-10.08.18:719][882]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.08.22:981][126]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall_C
+[2024.11.11-10.08.22:982][126]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall_C
+[2024.11.11-10.08.22:983][126]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall as actor: BP_SpawnBall_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_SpawnBall_C_0
+[2024.11.11-10.08.22:983][126]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall as actor: BP_SpawnBall_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_SpawnBall_C_0
+[2024.11.11-10.08.25:238][259]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall_C
+[2024.11.11-10.08.25:238][259]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall_C
+[2024.11.11-10.08.25:240][259]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall as actor: BP_SpawnBall_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_SpawnBall_C_1
+[2024.11.11-10.08.25:240][259]LogActorFactory: Actor Factory spawned Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall as actor: BP_SpawnBall_C /Game/BrickBreaker/BrickBreaker.BrickBreaker:PersistentLevel.BP_SpawnBall_C_1
+[2024.11.11-10.09.25:786][254]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-10.09.25:826][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.11-10.09.25:903][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.09.26:060][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.09.26:397][254]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.09.26:399][254]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball2D8A3EF14D75F9122B654FB237C82E37.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.09.26:414][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 511 ms (total: 13.1 sec)
+[2024.11.11-10.09.26:416][254]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.09.26:416][254]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-10.12.32:088][327]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-10.12.32:132][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.11-10.12.32:139][327]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_6
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:02DB
+[2024.11.11-10.12.32:211][327]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.12.32:364][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.12.32:767][327]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.12.32:769][327]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallCFB4036A4A7EEBBEE7AF61A5D417FD48.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.12.32:787][327]LogFileHelpers: InternalPromptForCheckoutAndSave took 575 ms (total: 13.6 sec)
+[2024.11.11-10.12.32:790][327]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.12.32:790][327]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-10.12.51:605][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.12.51:824][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.11-10.12.53:015][331]LogSavePackage: Moving output files for package: /Game/BrickBreaker/BrickBreaker
+[2024.11.11-10.12.53:017][331]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BrickBreakerE9B7F95840AEC48D7A9D789A8A69419E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/BrickBreaker.umap'
+[2024.11.11-10.12.53:047][331]LogFileHelpers: Saving map 'BrickBreaker' took 1.315
+[2024.11.11-10.12.53:052][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.44 sec (total: 15.1 sec)
+[2024.11.11-10.12.53:054][331]AssetCheck: New page: Asset Save: BrickBreaker
+[2024.11.11-10.12.53:054][331]LogContentValidation: Display: Validating /Script/Engine.World /Game/BrickBreaker/BrickBreaker.BrickBreaker
+[2024.11.11-10.12.55:021][448]BlueprintLog: New page: Compile BP_SpawnBall
+[2024.11.11-10.12.55:058][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.11-10.12.55:091][448]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.12.55:235][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_SpawnBall" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset" SILENT=true
+[2024.11.11-10.12.55:367][448]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_SpawnBall
+[2024.11.11-10.12.55:369][448]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_SpawnBallFB143A5A4364BC90A551D28EBED673DF.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset'
+[2024.11.11-10.12.55:390][448]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 15.4 sec)
+[2024.11.11-10.12.55:393][448]AssetCheck: New page: Asset Save: BP_SpawnBall
+[2024.11.11-10.12.55:393][448]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.13.20:207][614]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::K2_DestroyActor' [No se ha encontrado el elemento.]
+[2024.11.11-10.14.08:923][959]BlueprintLog: New page: Compile BP_BallDestroyer
+[2024.11.11-10.14.08:963][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.11-10.14.08:982][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.14.09:277][959]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_BallDestroyer
+[2024.11.11-10.14.09:279][959]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_BallDestroyerCDC4407A475D10D5B4D281A78F4F1974.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_BallDestroyer.uasset'
+[2024.11.11-10.14.09:310][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 327 ms (total: 15.7 sec)
+[2024.11.11-10.14.09:313][959]AssetCheck: New page: Asset Save: BP_BallDestroyer
+[2024.11.11-10.14.09:313][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer
+[2024.11.11-10.14.18:287][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.11.11-10.14.20:694][509]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.14.20:720][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.14.20:721][509]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:14:20)
+[2024.11.11-10.14.20:721][509]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.20:724][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004294s)
+[2024.11.11-10.14.20:724][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004340s)
+[2024.11.11-10.14.20:737][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.11-10.14.20:739][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.14.20:739][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.14.20:740][509]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.14.20:740][509]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2024.11.11-10.14.20:740][509]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.14.20:741][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.14.20:741][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.14.20:741][509]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.14.20:741][509]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.14.20:741][509]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.14.20:744][509]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.14.20:970][509]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.14.20:970][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.14.20:970][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.14.20:970][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.14.20:971][509]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.11-10.14.20:971][509]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.11-10.14.20:974][509]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.11-10.14.20:974][509]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.11-10.14.20:974][509]LogAudio: Display: Audio Device (ID: 9) registered with world 'BrickBreaker'.
+[2024.11.11-10.14.20:974][509]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.11-10.14.20:974][509]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.11-10.14.20:977][509]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.14.20:978][509]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.14.20
+[2024.11.11-10.14.20:978][509]LogWorld: Bringing up level for play took: 0.001573
+[2024.11.11-10.14.20:981][509]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.11.11-10.14.20:984][509]PIE: Server logged in
+[2024.11.11-10.14.20:986][509]PIE: Play in editor total start time 0,265 seconds.
+[2024.11.11-10.14.28:290][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.28:290][942]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.28:290][942]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.14.28:290][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.28:294][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.14.28:298][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.28:314][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.28:314][942]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.11-10.14.28:314][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.11-10.14.28:317][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.11-10.14.28:327][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.11-10.14.28:422][943]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.11.11-10.14.42:682][792]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.14.43:914][859]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.14.43:937][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.14.43:937][859]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:14:43)
+[2024.11.11-10.14.43:937][859]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.43:941][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004122s)
+[2024.11.11-10.14.43:941][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004163s)
+[2024.11.11-10.14.43:958][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.11-10.14.43:960][859]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.14.43:960][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.14.43:961][859]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.14.43:961][859]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2024.11.11-10.14.43:961][859]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.14.43:961][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.14.43:961][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.14.43:962][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.14.43:962][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.14.43:962][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.14.43:964][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.14.44:201][859]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.14.44:202][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.14.44:202][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.14.44:202][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.14.44:203][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.11-10.14.44:203][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.11-10.14.44:206][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.11-10.14.44:206][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.11-10.14.44:206][859]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.11-10.14.44:206][859]LogAudio: Display: Audio Device (ID: 10) registered with world 'BrickBreaker'.
+[2024.11.11-10.14.44:206][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.11-10.14.44:209][859]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.14.44:211][859]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.14.44
+[2024.11.11-10.14.44:211][859]LogWorld: Bringing up level for play took: 0.001455
+[2024.11.11-10.14.44:214][859]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.11.11-10.14.44:217][859]PIE: Server logged in
+[2024.11.11-10.14.44:218][859]PIE: Play in editor total start time 0,281 seconds.
+[2024.11.11-10.14.49:317][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.49:317][160]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.49:318][160]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.14.49:318][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.49:321][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.14.49:324][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.49:335][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.49:335][160]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.11-10.14.49:335][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.11-10.14.49:338][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.11-10.14.49:346][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.11-10.14.49:448][161]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.11.11-10.14.50:881][245]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.14.50:907][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.14.50:907][245]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:14:50)
+[2024.11.11-10.14.50:907][245]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.50:911][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004264s)
+[2024.11.11-10.14.50:911][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004306s)
+[2024.11.11-10.14.50:921][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.11-10.14.50:924][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.14.50:924][245]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.14.50:924][245]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.14.50:925][245]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2024.11.11-10.14.50:925][245]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.14.50:925][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.14.50:925][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.14.50:926][245]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.14.50:926][245]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.14.50:926][245]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.14.50:927][245]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.14.51:158][245]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.14.51:158][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.14.51:158][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.14.51:158][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.14.51:159][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.11.11-10.14.51:159][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.11.11-10.14.51:161][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.11.11-10.14.51:161][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.11.11-10.14.51:161][245]LogInit: FAudioDevice initialized with ID 11.
+[2024.11.11-10.14.51:161][245]LogAudio: Display: Audio Device (ID: 11) registered with world 'BrickBreaker'.
+[2024.11.11-10.14.51:161][245]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.11-10.14.51:164][245]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.14.51:167][245]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.14.51
+[2024.11.11-10.14.51:167][245]LogWorld: Bringing up level for play took: 0.001531
+[2024.11.11-10.14.51:169][245]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.11-10.14.51:172][245]PIE: Server logged in
+[2024.11.11-10.14.51:173][245]PIE: Play in editor total start time 0,266 seconds.
+[2024.11.11-10.14.54:748][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.54:748][455]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.14.54:748][455]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.14.54:748][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.54:754][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.14.54:758][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.14.54:774][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.14.54:775][455]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.11-10.14.54:775][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.11-10.14.54:777][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.11-10.14.54:784][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.11-10.14.54:858][456]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.11-10.15.10:648][397]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.15.11:854][468]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.15.11:879][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.15.11:879][468]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:15:11)
+[2024.11.11-10.15.11:879][468]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.15.11:883][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004230s)
+[2024.11.11-10.15.11:883][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004283s)
+[2024.11.11-10.15.11:899][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.11-10.15.11:903][468]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.15.11:903][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.15.11:904][468]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.15.11:904][468]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2024.11.11-10.15.11:904][468]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.11-10.15.11:904][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.15.11:904][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.15.11:904][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.15.11:904][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.15.11:904][468]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.15.11:905][468]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.15.11:905][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.15.11:905][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.15.11:906][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.15.11:906][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.15.11:906][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.15.11:908][468]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.15.12:131][468]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.15.12:131][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.15.12:131][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.15.12:131][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.15.12:132][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.11-10.15.12:132][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.11-10.15.12:134][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.11-10.15.12:134][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.11-10.15.12:134][468]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.11-10.15.12:134][468]LogAudio: Display: Audio Device (ID: 12) registered with world 'BrickBreaker'.
+[2024.11.11-10.15.12:134][468]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.11-10.15.12:137][468]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.15.12:139][468]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.15.12
+[2024.11.11-10.15.12:139][468]LogWorld: Bringing up level for play took: 0.001649
+[2024.11.11-10.15.12:141][468]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.11-10.15.12:143][468]PIE: Server logged in
+[2024.11.11-10.15.12:145][468]PIE: Play in editor total start time 0,266 seconds.
+[2024.11.11-10.15.15:118][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.15.15:118][642]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.15.15:118][642]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.15.15:119][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.15.15:122][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.15.15:126][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.15.15:136][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.15.15:136][642]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.11-10.15.15:137][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.11-10.15.15:139][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.11-10.15.15:149][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.11.11-10.15.15:223][643]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.11-10.15.24:426][174]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.15.25:639][245]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.15.25:661][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.15.25:661][245]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:15:25)
+[2024.11.11-10.15.25:661][245]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.15.25:664][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004093s)
+[2024.11.11-10.15.25:664][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004134s)
+[2024.11.11-10.15.25:678][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.11-10.15.25:681][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.15.25:681][245]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.15.25:681][245]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.15.25:681][245]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2024.11.11-10.15.25:681][245]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.15.25:682][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.15.25:682][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.15.25:682][245]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.15.25:682][245]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.15.25:682][245]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.15.25:684][245]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.15.25:907][245]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.15.25:908][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.15.25:908][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.15.25:908][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.15.25:908][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.11.11-10.15.25:908][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.11.11-10.15.25:910][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.11.11-10.15.25:911][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.11.11-10.15.25:911][245]LogInit: FAudioDevice initialized with ID 13.
+[2024.11.11-10.15.25:911][245]LogAudio: Display: Audio Device (ID: 13) registered with world 'BrickBreaker'.
+[2024.11.11-10.15.25:911][245]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.11-10.15.25:914][245]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.15.25:916][245]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.15.25
+[2024.11.11-10.15.25:916][245]LogWorld: Bringing up level for play took: 0.001563
+[2024.11.11-10.15.25:919][245]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.11.11-10.15.25:921][245]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=60.000 Y=20.000 Z=42.000] for [BP_Paddle_C]
+[2024.11.11-10.15.25:921][245]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Paddle_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 60.000000 20.000000 42.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2024.11.11-10.15.25:922][245]PIE: Server logged in
+[2024.11.11-10.15.25:924][245]PIE: Play in editor total start time 0,263 seconds.
+[2024.11.11-10.15.26:399][271]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:0047
+[2024.11.11-10.15.26:400][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.15.26:400][271]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:00A9
+[2024.11.11-10.15.26:400][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.15.26:400][271]LogScript: Warning: Attempted to assign to None
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:00BE
+[2024.11.11-10.15.26:400][271]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.15.26:400][271]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_Ball_C_0
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:02DB
+[2024.11.11-10.15.26:401][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP Ball Blueprint:  BP_Ball
+[2024.11.11-10.15.30:589][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.15.30:589][519]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.15.30:589][519]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.15.30:589][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.15.30:594][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.15.30:599][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.15.30:613][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.15.30:613][519]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.11-10.15.30:613][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.11-10.15.30:616][519]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.11-10.15.30:624][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.11.11-10.15.31:042][520]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.11-10.15.36:950][865]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.15.36:963][865]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.15.46:380][417]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.15.46:390][417]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.16.01:855][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.11-10.16.01:861][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.16.02:099][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.11-10.16.03:335][552]LogSavePackage: Moving output files for package: /Game/BrickBreaker/BrickBreaker
+[2024.11.11-10.16.03:338][552]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BrickBreakerB29B9FB240177B48DF17AAA67F632E0C.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/BrickBreaker.umap'
+[2024.11.11-10.16.03:370][552]LogFileHelpers: Saving map 'BrickBreaker' took 1.370
+[2024.11.11-10.16.03:380][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.51 sec (total: 17.2 sec)
+[2024.11.11-10.16.03:381][552]AssetCheck: New page: Asset Save: BrickBreaker
+[2024.11.11-10.16.03:381][552]LogContentValidation: Display: Validating /Script/Engine.World /Game/BrickBreaker/BrickBreaker.BrickBreaker
+[2024.11.11-10.16.07:787][807]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.16.07:813][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.16.07:813][807]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:16:07)
+[2024.11.11-10.16.07:813][807]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.07:817][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004322s)
+[2024.11.11-10.16.07:817][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004365s)
+[2024.11.11-10.16.07:835][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.11.11-10.16.07:836][807]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.16.07:836][807]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.16.07:836][807]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.16.07:837][807]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2024.11.11-10.16.07:837][807]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.16.07:837][807]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.16.07:837][807]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.16.07:837][807]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.16.07:837][807]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.16.07:837][807]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.16.07:840][807]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.16.08:061][807]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.16.08:061][807]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.16.08:061][807]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.16.08:061][807]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.16.08:062][807]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.11-10.16.08:062][807]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.11-10.16.08:064][807]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.11-10.16.08:064][807]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.11-10.16.08:064][807]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.11-10.16.08:064][807]LogAudio: Display: Audio Device (ID: 14) registered with world 'BrickBreaker'.
+[2024.11.11-10.16.08:064][807]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.11-10.16.08:067][807]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.16.08:069][807]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.16.08
+[2024.11.11-10.16.08:069][807]LogWorld: Bringing up level for play took: 0.001450
+[2024.11.11-10.16.08:071][807]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.11-10.16.08:072][807]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=60.000 Y=20.000 Z=42.000] for [BP_Paddle_C]
+[2024.11.11-10.16.08:072][807]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Paddle_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 60.000000 20.000000 42.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2024.11.11-10.16.08:073][807]PIE: Server logged in
+[2024.11.11-10.16.08:074][807]PIE: Play in editor total start time 0,263 seconds.
+[2024.11.11-10.16.08:561][833]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:0047
+[2024.11.11-10.16.08:561][833]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.16.08:561][833]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:00A9
+[2024.11.11-10.16.08:562][833]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.16.08:562][833]LogScript: Warning: Attempted to assign to None
+	BP_BallDestroyer_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_BallDestroyer_C_1
+	Function /Game/BrickBreaker/Blueprints/BP_BallDestroyer.BP_BallDestroyer_C:ExecuteUbergraph_BP_BallDestroyer:00BE
+[2024.11.11-10.16.08:562][833]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Ball Destroyer Blueprint:  BP_BallDestroyer
+[2024.11.11-10.16.08:562][833]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker:PersistentLevel.BP_Ball_C_0
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:02DB
+[2024.11.11-10.16.08:562][833]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Paddle". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP Ball Blueprint:  BP_Ball
+[2024.11.11-10.16.10:217][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.10:217][926]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.10:217][926]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.16.10:218][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.10:223][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.16.10:229][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.10:248][926]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.11-10.16.10:248][926]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.11-10.16.10:248][926]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.11-10.16.10:250][926]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.11-10.16.10:258][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.10:261][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.11.11-10.16.10:596][927]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.11-10.16.12:207][ 14]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.16.12:221][ 14]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-10.16.18:515][380]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.16.19:840][458]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.16.19:864][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.16.19:864][458]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:16:19)
+[2024.11.11-10.16.19:864][458]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.19:870][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004301s)
+[2024.11.11-10.16.19:870][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004347s)
+[2024.11.11-10.16.19:883][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.11.11-10.16.19:886][458]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.16.19:886][458]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.16.19:886][458]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.16.19:886][458]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2024.11.11-10.16.19:886][458]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.16.19:886][458]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.16.19:886][458]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.16.19:887][458]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.16.19:887][458]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.16.19:887][458]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.16.19:889][458]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.16.20:126][458]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.16.20:126][458]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.16.20:126][458]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.16.20:126][458]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.16.20:128][458]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.11.11-10.16.20:128][458]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.11.11-10.16.20:130][458]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.11.11-10.16.20:130][458]LogInit: FAudioDevice initialized with ID 15.
+[2024.11.11-10.16.20:130][458]LogAudio: Display: Audio Device (ID: 15) registered with world 'BrickBreaker'.
+[2024.11.11-10.16.20:130][458]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.11.11-10.16.20:130][458]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.11-10.16.20:136][458]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.16.20:138][458]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.16.20
+[2024.11.11-10.16.20:138][458]LogWorld: Bringing up level for play took: 0.002679
+[2024.11.11-10.16.20:141][458]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.11.11-10.16.20:143][458]PIE: Server logged in
+[2024.11.11-10.16.20:144][458]PIE: Play in editor total start time 0,28 seconds.
+[2024.11.11-10.16.30:307][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.30:307][ 63]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.30:307][ 63]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.16.30:308][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.30:311][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.16.30:315][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.30:330][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.30:331][ 63]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.11-10.16.30:331][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.11-10.16.30:333][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.11-10.16.30:344][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.11.11-10.16.30:446][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.11.11-10.16.38:972][567]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.11-10.16.40:455][654]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.16.40:479][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.16.40:479][654]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:16:40)
+[2024.11.11-10.16.40:479][654]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.40:483][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004083s)
+[2024.11.11-10.16.40:483][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004122s)
+[2024.11.11-10.16.40:496][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.11-10.16.40:498][654]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.16.40:498][654]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.16.40:499][654]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.16.40:499][654]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2024.11.11-10.16.40:499][654]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.16.40:499][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.16.40:499][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.16.40:500][654]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.16.40:500][654]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.16.40:500][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.16.40:502][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.16.40:720][654]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.16.40:721][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.16.40:721][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.16.40:721][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.16.40:722][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.11.11-10.16.40:722][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.11.11-10.16.40:724][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.11.11-10.16.40:724][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.11.11-10.16.40:724][654]LogInit: FAudioDevice initialized with ID 16.
+[2024.11.11-10.16.40:724][654]LogAudio: Display: Audio Device (ID: 16) registered with world 'BrickBreaker'.
+[2024.11.11-10.16.40:724][654]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.11-10.16.40:727][654]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.16.40:729][654]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.16.40
+[2024.11.11-10.16.40:729][654]LogWorld: Bringing up level for play took: 0.001496
+[2024.11.11-10.16.40:732][654]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.11.11-10.16.40:734][654]PIE: Server logged in
+[2024.11.11-10.16.40:736][654]PIE: Play in editor total start time 0,257 seconds.
+[2024.11.11-10.16.46:288][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.46:288][983]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.46:288][983]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.16.46:289][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.46:293][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.16.46:297][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.16.46:314][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.16.46:316][983]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.11-10.16.46:316][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.11-10.16.46:318][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.11-10.16.46:327][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.11-10.16.46:419][984]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.11.11-10.16.53:606][401]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.16.53:642][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.16.53:642][401]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:16:53)
+[2024.11.11-10.16.53:678][401]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.16.53:682][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004073s)
+[2024.11.11-10.16.53:682][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004134s)
+[2024.11.11-10.16.53:696][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.11-10.16.53:699][401]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.16.53:699][401]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.16.53:699][401]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.16.53:700][401]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2024.11.11-10.16.53:700][401]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.16.53:700][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.16.53:700][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.16.53:700][401]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.16.53:701][401]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.16.53:701][401]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.16.53:703][401]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.16.53:922][401]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.16.53:922][401]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.16.53:922][401]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.16.53:922][401]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.16.53:923][401]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.11.11-10.16.53:923][401]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.11.11-10.16.53:924][401]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.11.11-10.16.53:924][401]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.11.11-10.16.53:924][401]LogInit: FAudioDevice initialized with ID 17.
+[2024.11.11-10.16.53:924][401]LogAudio: Display: Audio Device (ID: 17) registered with world 'BrickBreaker'.
+[2024.11.11-10.16.53:924][401]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.11-10.16.53:930][401]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.16.53:932][401]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.16.53
+[2024.11.11-10.16.53:932][401]LogWorld: Bringing up level for play took: 0.001379
+[2024.11.11-10.16.53:934][401]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.11.11-10.16.53:936][401]PIE: Server logged in
+[2024.11.11-10.16.53:937][401]PIE: Play in editor total start time 0,307 seconds.
+[2024.11.11-10.17.02:498][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.17.02:498][910]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.17.02:498][910]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.17.02:499][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.17.02:505][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.17.02:509][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.17.02:522][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.17.02:523][910]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.11-10.17.02:523][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.11-10.17.02:526][910]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.11-10.17.02:534][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.11-10.17.02:624][911]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.11.11-10.17.33:054][388]BlueprintLog: New page: Compile BP_Paddle
+[2024.11.11-10.17.33:091][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.11-10.17.33:260][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.17.33:402][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Paddle" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset" SILENT=true
+[2024.11.11-10.17.33:699][388]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Paddle
+[2024.11.11-10.17.33:701][388]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_PaddleEABA6C5A480F976348BA0FB6E62ECFB9.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Paddle.uasset'
+[2024.11.11-10.17.33:718][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 457 ms (total: 17.7 sec)
+[2024.11.11-10.17.33:744][388]AssetCheck: New page: Asset Save: BP_Paddle
+[2024.11.11-10.17.33:744][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Paddle.BP_Paddle
+[2024.11.11-10.17.34:641][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.11-10.17.34:648][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.17.34:866][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.11.11-10.17.36:104][433]LogSavePackage: Moving output files for package: /Game/BrickBreaker/BrickBreaker
+[2024.11.11-10.17.36:107][433]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BrickBreakerCCEC97E549793910BB2B0BADDF7972F2.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/BrickBreaker.umap'
+[2024.11.11-10.17.36:136][433]LogFileHelpers: Saving map 'BrickBreaker' took 1.360
+[2024.11.11-10.17.36:149][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.50 sec (total: 19.2 sec)
+[2024.11.11-10.17.36:150][433]AssetCheck: New page: Asset Save: BrickBreaker
+[2024.11.11-10.17.36:150][433]LogContentValidation: Display: Validating /Script/Engine.World /Game/BrickBreaker/BrickBreaker.BrickBreaker
+[2024.11.11-10.17.36:683][464]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.17.36:708][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.17.36:708][464]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:17:36)
+[2024.11.11-10.17.36:708][464]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.17.36:712][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004599s)
+[2024.11.11-10.17.36:712][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004649s)
+[2024.11.11-10.17.36:727][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.11-10.17.36:728][464]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.17.36:728][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.17.36:729][464]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.17.36:730][464]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2024.11.11-10.17.36:730][464]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.17.36:730][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.17.36:730][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.17.36:730][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.17.36:730][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.17.36:730][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.17.36:732][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.17.36:952][464]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.17.36:952][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.17.36:952][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.17.36:952][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.17.36:953][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.11.11-10.17.36:953][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.11.11-10.17.36:955][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.11.11-10.17.36:955][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.11.11-10.17.36:955][464]LogInit: FAudioDevice initialized with ID 18.
+[2024.11.11-10.17.36:955][464]LogAudio: Display: Audio Device (ID: 18) registered with world 'BrickBreaker'.
+[2024.11.11-10.17.36:955][464]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.11-10.17.36:958][464]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.17.36:960][464]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.17.36
+[2024.11.11-10.17.36:960][464]LogWorld: Bringing up level for play took: 0.001691
+[2024.11.11-10.17.36:962][464]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.11.11-10.17.36:964][464]PIE: Server logged in
+[2024.11.11-10.17.36:966][464]PIE: Play in editor total start time 0,258 seconds.
+[2024.11.11-10.18.09:377][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.18.09:377][402]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.18.09:378][402]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.18.09:378][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.18.09:383][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.18.09:387][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.18.09:406][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.18.09:406][402]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.11-10.18.09:406][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.11-10.18.09:408][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.11-10.18.09:417][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.11-10.18.09:490][403]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.11.11-10.18.35:963][901]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-10.18.36:001][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.11-10.18.36:008][901]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_7
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:02DB
+[2024.11.11-10.18.36:093][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.18.36:247][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.18.36:644][901]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.18.36:646][901]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball9AFDCA1A4469701BEF94CFA6DF74A724.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.18.36:664][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 570 ms (total: 19.8 sec)
+[2024.11.11-10.18.36:666][901]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.18.36:666][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-10.18.44:289][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.18.44:314][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.18.44:314][117]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:18:44)
+[2024.11.11-10.18.44:314][117]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.18.44:319][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004726s)
+[2024.11.11-10.18.44:319][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004773s)
+[2024.11.11-10.18.44:331][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.11-10.18.44:334][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.18.44:334][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.18.44:334][117]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.18.44:336][117]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2024.11.11-10.18.44:336][117]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.18.44:336][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.18.44:336][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.18.44:337][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.18.44:337][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.18.44:337][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.18.44:339][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.18.44:568][117]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.18.44:568][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.18.44:568][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.18.44:568][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.18.44:570][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.11.11-10.18.44:570][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.11.11-10.18.44:571][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.11.11-10.18.44:571][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.11.11-10.18.44:571][117]LogInit: FAudioDevice initialized with ID 19.
+[2024.11.11-10.18.44:571][117]LogAudio: Display: Audio Device (ID: 19) registered with world 'BrickBreaker'.
+[2024.11.11-10.18.44:571][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.11-10.18.44:576][117]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.18.44:577][117]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.18.44
+[2024.11.11-10.18.44:578][117]LogWorld: Bringing up level for play took: 0.001783
+[2024.11.11-10.18.44:580][117]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.11.11-10.18.44:582][117]PIE: Server logged in
+[2024.11.11-10.18.44:583][117]PIE: Play in editor total start time 0,269 seconds.
+[2024.11.11-10.19.07:908][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.19.07:908][512]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.19.07:908][512]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.19.07:908][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.19.07:914][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.19.07:918][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.19.07:933][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.11-10.19.07:933][512]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.11-10.19.07:933][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.11-10.19.07:936][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.11-10.19.07:942][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.19.07:945][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.11-10.19.08:033][513]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.11.11-10.19.37:637][911]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.11.11-10.19.49:497][ 71]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.11.11-10.19.49:513][ 71]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.11.11-10.19.49:528][ 71]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.11.11-10.19.49:564][ 72]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.11.11-10.20.03:907][931]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_GameOver
+[2024.11.11-10.20.03:914][931]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.11.11-10.20.15:147][ 51]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver.WB_GameOver
+[2024.11.11-10.20.15:147][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.20.15:147][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.20.15:163][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.20.15:163][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.25.30:174][236]BlueprintLog: New page: Compile WB_GameOver
+[2024.11.11-10.25.30:216][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.11-10.25.30:300][236]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.25.30:441][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_GameOver" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset" SILENT=true
+[2024.11.11-10.25.30:819][236]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_GameOver
+[2024.11.11-10.25.30:819][236]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_GameOverC31A068A4F69B077D97F05B83024CA17.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset'
+[2024.11.11-10.25.30:839][236]LogFileHelpers: InternalPromptForCheckoutAndSave took 538 ms (total: 20.3 sec)
+[2024.11.11-10.25.30:847][236]AssetCheck: New page: Asset Save: WB_GameOver
+[2024.11.11-10.25.30:847][236]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver.WB_GameOver
+[2024.11.11-10.26.19:619][445]BlueprintLog: New page: Compile WB_GameOver
+[2024.11.11-10.26.19:651][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.11-10.26.19:663][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.26.19:820][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_GameOver" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset" SILENT=true
+[2024.11.11-10.26.20:196][445]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_GameOver
+[2024.11.11-10.26.20:198][445]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_GameOver093B38A4451CA8A917BB9CA79D841603.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset'
+[2024.11.11-10.26.20:231][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 567 ms (total: 20.9 sec)
+[2024.11.11-10.26.20:247][445]AssetCheck: New page: Asset Save: WB_GameOver
+[2024.11.11-10.26.20:247][445]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver.WB_GameOver
+[2024.11.11-10.27.12:164][185]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-10.27.12:200][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.11-10.27.12:205][185]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_8
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:0313
+[2024.11.11-10.27.12:205][185]LogScript: Warning: Script Msg: The widget 'WB_GameOver_C_0' does not have a World.
+[2024.11.11-10.27.12:205][185]LogScript: Warning: Script Msg called by: BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_8
+[2024.11.11-10.27.12:305][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.27.12:441][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.27.12:820][185]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.27.12:822][185]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball4A9E472C4E1658E1CF3AB081E856CC6D.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.27.12:839][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 533 ms (total: 21.4 sec)
+[2024.11.11-10.27.12:841][185]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.27.12:841][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-10.27.25:752][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.11-10.27.25:757][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.27.25:894][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_GameOver" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset" SILENT=true
+[2024.11.11-10.27.26:277][686]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_GameOver
+[2024.11.11-10.27.26:279][686]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_GameOver6F58AD31416ED07DFB8D12B5325AB813.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset'
+[2024.11.11-10.27.26:297][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 539 ms (total: 21.9 sec)
+[2024.11.11-10.27.26:298][686]AssetCheck: New page: Asset Save: WB_GameOver
+[2024.11.11-10.27.26:298][686]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver.WB_GameOver
+[2024.11.11-10.27.27:634][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.11.11-10.27.29:930][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.11-10.27.31:190][956]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.27.31:216][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.27.31:216][956]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:27:31)
+[2024.11.11-10.27.31:247][956]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.27.31:252][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004914s)
+[2024.11.11-10.27.31:252][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004971s)
+[2024.11.11-10.27.31:265][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.11-10.27.31:267][956]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.27.31:267][956]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.27.31:267][956]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.27.31:268][956]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2024.11.11-10.27.31:268][956]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.27.31:268][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.27.31:268][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.27.31:269][956]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.27.31:269][956]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.27.31:269][956]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.27.31:271][956]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.27.31:490][956]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.27.31:490][956]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.27.31:490][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.27.31:490][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.27.31:491][956]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.11.11-10.27.31:491][956]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.11.11-10.27.31:493][956]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.11.11-10.27.31:493][956]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.11.11-10.27.31:493][956]LogInit: FAudioDevice initialized with ID 20.
+[2024.11.11-10.27.31:493][956]LogAudio: Display: Audio Device (ID: 20) registered with world 'BrickBreaker'.
+[2024.11.11-10.27.31:493][956]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.11-10.27.31:497][956]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.27.31:499][956]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.27.31
+[2024.11.11-10.27.31:499][956]LogWorld: Bringing up level for play took: 0.001938
+[2024.11.11-10.27.31:502][956]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.11.11-10.27.31:506][956]PIE: Server logged in
+[2024.11.11-10.27.31:508][956]PIE: Play in editor total start time 0,293 seconds.
+[2024.11.11-10.27.39:937][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.27.39:937][457]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.27.39:938][457]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.27.39:938][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.27.39:942][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.27.39:946][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.27.39:964][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.27.39:964][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.11-10.27.39:964][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.11-10.27.39:967][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.11-10.27.39:978][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.11-10.27.40:083][458]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.11.11-10.28.04:354][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.11-10.28.04:366][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.28.04:491][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_GameOver1" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver1.uasset" SILENT=true
+[2024.11.11-10.28.04:857][719]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_GameOver1
+[2024.11.11-10.28.04:857][719]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_GameOver1D921B34D4AD87658663BDCB404DE9DD5.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver1.uasset'
+[2024.11.11-10.28.04:884][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 518 ms (total: 22.5 sec)
+[2024.11.11-10.28.04:951][719]AssetCheck: New page: Asset Save: WB_GameOver1
+[2024.11.11-10.28.04:951][719]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver1.WB_GameOver1
+[2024.11.11-10.28.09:600][969]LogContentBrowser: Attempting asset rename: WB_GameOver1 -> WB_GameOver1
+[2024.11.11-10.28.16:191][364]LogContentBrowser: Attempting asset rename: WB_GameOver1 -> WB_wIN
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.SKEL_WB_wIN_C' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.WB_wIN_C' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.SKEL_WB_wIN_C:PreConstruct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.SKEL_WB_wIN_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.SKEL_WB_wIN_C:Tick' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:219][364]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_wIN.WB_wIN_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_GameOver1.PackageMetaData'
+[2024.11.11-10.28.16:220][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.28.16:326][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_wIN" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_wIN.uasset" SILENT=true
+[2024.11.11-10.28.16:708][364]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_wIN
+[2024.11.11-10.28.16:708][364]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_wINFEFE0D7D4F52DF45F2B9F8A8FE6FC09F.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_wIN.uasset'
+[2024.11.11-10.28.16:731][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 511 ms (total: 23.0 sec)
+[2024.11.11-10.28.16:764][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.11.11-10.28.16:781][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.11-10.28.16:795][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.11.11-10.28.16:801][364]AssetCheck: New page: Asset Save: WB_wIN
+[2024.11.11-10.28.16:801][364]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_wIN.WB_wIN
+[2024.11.11-10.28.22:664][707]LogContentBrowser: Attempting asset rename: WB_wIN -> WB_Win
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.RenameTmp_C' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.RenameTmp_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.SKEL_RenameTmp_C' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.SKEL_RenameTmp_C:PreConstruct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.SKEL_RenameTmp_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:690][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/RenameTmp.SKEL_RenameTmp_C:Tick' ref from Metadata '/Game/BrickBreaker/Blueprints/WB_wIN.PackageMetaData'
+[2024.11.11-10.28.22:715][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.11-10.28.22:728][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.11-10.28.22:742][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.WB_Win_C' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.WB_Win_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.SKEL_WB_Win_C' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.SKEL_WB_Win_C:PreConstruct' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.SKEL_WB_Win_C:Construct' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:747][707]LogMetaData: Removing '/Game/BrickBreaker/Blueprints/WB_Win.SKEL_WB_Win_C:Tick' ref from Metadata '/Game/BrickBreaker/Blueprints/RenameTmp.PackageMetaData'
+[2024.11.11-10.28.22:767][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.11.11-10.28.22:781][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.11-10.28.22:795][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.11.11-10.28.24:230][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.28.24:324][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_Win" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset" SILENT=true
+[2024.11.11-10.28.24:690][785]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_Win
+[2024.11.11-10.28.24:690][785]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_Win8CC74380490BF1FCD503439BED338B2E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset'
+[2024.11.11-10.28.24:712][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 482 ms (total: 23.5 sec)
+[2024.11.11-10.28.24:713][785]AssetCheck: New page: Asset Save: WB_Win
+[2024.11.11-10.28.24:713][785]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_Win.WB_Win
+[2024.11.11-10.28.26:007][860]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_Win.WB_Win
+[2024.11.11-10.28.26:007][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.28.26:008][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.28.26:014][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.28.26:014][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.28.39:841][655]BlueprintLog: New page: Compile WB_Win
+[2024.11.11-10.28.39:867][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.11-10.28.39:996][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.28.40:125][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_Win" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset" SILENT=true
+[2024.11.11-10.28.40:483][655]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_Win
+[2024.11.11-10.28.40:486][655]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_WinFFB6E56E40A39C31E850EF81212CBF99.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset'
+[2024.11.11-10.28.40:515][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 518 ms (total: 24.0 sec)
+[2024.11.11-10.28.40:541][655]AssetCheck: New page: Asset Save: WB_Win
+[2024.11.11-10.28.40:541][655]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_Win.WB_Win
+[2024.11.11-10.29.19:115][318]LogEditorTransaction: Undo Move Node
+[2024.11.11-10.29.23:838][572]LogEditorTransaction: Undo Move Node
+[2024.11.11-10.31.12:627][246]BlueprintLog: New page: Compile BP_Brick
+[2024.11.11-10.31.12:688][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.11-10.31.12:752][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.31.12:906][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Brick" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Brick.uasset" SILENT=true
+[2024.11.11-10.31.13:238][246]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Brick
+[2024.11.11-10.31.13:241][246]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Brick4D3B4326462EA3049D42C4A079DD224F.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Brick.uasset'
+[2024.11.11-10.31.13:260][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 507 ms (total: 24.5 sec)
+[2024.11.11-10.31.13:262][246]AssetCheck: New page: Asset Save: BP_Brick
+[2024.11.11-10.31.13:262][246]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Brick.BP_Brick
+[2024.11.11-10.33.18:925][874]BlueprintLog: New page: Compile WB_GameOver
+[2024.11.11-10.33.18:965][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.11.11-10.33.19:012][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.33.19:113][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_GameOver" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset" SILENT=true
+[2024.11.11-10.33.19:479][874]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_GameOver
+[2024.11.11-10.33.19:481][874]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_GameOver566045544D64278BB3FDF4BFC9EC8845.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_GameOver.uasset'
+[2024.11.11-10.33.19:496][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 483 ms (total: 25.0 sec)
+[2024.11.11-10.33.19:498][874]AssetCheck: New page: Asset Save: WB_GameOver
+[2024.11.11-10.33.19:498][874]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_GameOver.WB_GameOver
+[2024.11.11-10.34.42:911][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.11-10.34.42:913][246]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BrickBreaker/BrickBreaker' took 0.021
+[2024.11.11-10.34.42:914][246]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BrickBreaker/Blueprints/WB_Win] ([2] browsable assets)...
+[2024.11.11-10.34.42:924][246]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_Win.WB_Win]
+[2024.11.11-10.34.42:924][246]OBJ SavePackage: Finished generating thumbnails for package [/Game/BrickBreaker/Blueprints/WB_Win]
+[2024.11.11-10.34.43:306][246]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BrickBreaker/Blueprints/WB_Win_Auto1
+[2024.11.11-10.34.43:307][246]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_Win_Auto1BC2FFB444FAEAC008931189EA7789341.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/BrickBreaker/Blueprints/WB_Win_Auto1.uasset'
+[2024.11.11-10.34.43:309][246]LogFileHelpers: Auto-saving content packages took 0.395
+[2024.11.11-10.36.19:841][776]LogViewport: Scene viewport resized to 472x333, mode Windowed.
+[2024.11.11-10.36.28:990][286]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.36.29:018][286]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.11-10.36.29:022][286]LogPlayLevel: [PlayLevel] Compiling WB_Win before play...
+[2024.11.11-10.36.29:102][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.36.29:226][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/WB_Win" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset" SILENT=true
+[2024.11.11-10.36.29:593][286]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/WB_Win
+[2024.11.11-10.36.29:594][286]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/WB_Win0069F3834B411B6F9CC41EA970FA20E2.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/WB_Win.uasset'
+[2024.11.11-10.36.29:614][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 513 ms (total: 25.5 sec)
+[2024.11.11-10.36.29:630][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.11-10.36.29:632][286]LogPlayLevel: PlayLevel: Blueprint regeneration took 615 ms (1 blueprints)
+[2024.11.11-10.36.29:632][286]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:36:29)
+[2024.11.11-10.36.29:658][286]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.36.29:666][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008112s)
+[2024.11.11-10.36.29:666][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.008200s)
+[2024.11.11-10.36.29:693][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.11.11-10.36.29:694][286]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.36.29:694][286]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.36.29:695][286]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.36.29:695][286]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2024.11.11-10.36.29:695][286]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.36.29:695][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.36.29:695][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.36.29:696][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.36.29:696][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.36.29:696][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.36.29:698][286]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.36.29:916][286]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.36.29:917][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.36.29:917][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.36.29:917][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.36.29:918][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.11.11-10.36.29:918][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.11.11-10.36.29:920][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.11.11-10.36.29:920][286]LogInit: FAudioDevice initialized with ID 21.
+[2024.11.11-10.36.29:920][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.11.11-10.36.29:920][286]LogAudio: Display: Audio Device (ID: 21) registered with world 'BrickBreaker'.
+[2024.11.11-10.36.29:920][286]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.11-10.36.29:923][286]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.36.29:924][286]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.36.29
+[2024.11.11-10.36.29:924][286]LogWorld: Bringing up level for play took: 0.001781
+[2024.11.11-10.36.29:928][286]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.11.11-10.36.29:931][286]PIE: Server logged in
+[2024.11.11-10.36.29:932][286]PIE: Play in editor total start time 0,915 seconds.
+[2024.11.11-10.36.30:011][287]AssetCheck: New page: Asset Save: WB_Win
+[2024.11.11-10.36.30:011][287]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BrickBreaker/Blueprints/WB_Win.WB_Win
+[2024.11.11-10.36.32:508][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.36.32:508][431]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.36.32:508][431]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.36.32:508][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.36.32:514][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.36.32:517][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.36.32:533][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.36.32:533][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.11-10.36.32:533][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.11-10.36.32:536][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.11-10.36.32:546][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.11-10.36.32:707][432]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.11.11-10.36.32:715][432]LogViewport: Scene viewport resized to 472x333, mode Windowed.
+[2024.11.11-10.36.48:259][346]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.36.48:282][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.36.48:282][346]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:36:48)
+[2024.11.11-10.36.48:282][346]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.36.48:287][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004382s)
+[2024.11.11-10.36.48:287][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004456s)
+[2024.11.11-10.36.48:299][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.11-10.36.48:300][346]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.36.48:300][346]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.36.48:301][346]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.36.48:301][346]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2024.11.11-10.36.48:301][346]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.36.48:302][346]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.36.48:302][346]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.36.48:302][346]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.36.48:302][346]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.36.48:302][346]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.36.48:304][346]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.36.48:520][346]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.36.48:520][346]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.36.48:520][346]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.36.48:520][346]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.36.48:522][346]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.11.11-10.36.48:522][346]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.11.11-10.36.48:523][346]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.11.11-10.36.48:524][346]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.11.11-10.36.48:524][346]LogInit: FAudioDevice initialized with ID 22.
+[2024.11.11-10.36.48:524][346]LogAudio: Display: Audio Device (ID: 22) registered with world 'BrickBreaker'.
+[2024.11.11-10.36.48:524][346]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.11.11-10.36.48:527][346]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.36.48:529][346]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.36.48
+[2024.11.11-10.36.48:529][346]LogWorld: Bringing up level for play took: 0.001748
+[2024.11.11-10.36.48:532][346]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.11.11-10.36.48:534][346]PIE: Server logged in
+[2024.11.11-10.36.48:535][346]PIE: Play in editor total start time 0,253 seconds.
+[2024.11.11-10.37.45:608][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.37.45:608][765]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.37.45:608][765]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.37.45:608][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.37.45:613][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.37.45:617][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.37.45:636][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.37.45:636][765]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.11.11-10.37.45:637][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.11.11-10.37.45:639][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.11.11-10.37.45:649][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.11.11-10.37.45:832][766]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.11.11-10.37.45:874][766]LogViewport: Scene viewport resized to 472x333, mode Windowed.
+[2024.11.11-10.37.47:844][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.11-10.37.47:849][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.37.48:067][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.11.11-10.37.49:232][877]LogSavePackage: Moving output files for package: /Game/BrickBreaker/BrickBreaker
+[2024.11.11-10.37.49:234][877]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BrickBreaker07C27ED4431A8FF5F49B4B92BBB91794.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/BrickBreaker.umap'
+[2024.11.11-10.37.49:262][877]LogFileHelpers: Saving map 'BrickBreaker' took 1.289
+[2024.11.11-10.37.49:276][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.42 sec (total: 26.9 sec)
+[2024.11.11-10.37.49:279][877]AssetCheck: New page: Asset Save: BrickBreaker
+[2024.11.11-10.37.49:279][877]LogContentValidation: Display: Validating /Script/Engine.World /Game/BrickBreaker/BrickBreaker.BrickBreaker
+[2024.11.11-10.39.05:087][331]BlueprintLog: New page: Compile BP_Ball
+[2024.11.11-10.39.05:130][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.11-10.39.05:134][331]LogScript: Warning: Accessed None trying to read property As BP Paddle
+	BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_9
+	Function /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball_C:ExecuteUbergraph_BP_Ball:0344
+[2024.11.11-10.39.05:134][331]LogScript: Warning: Script Msg: The widget 'WB_GameOver_C_1' does not have a World.
+[2024.11.11-10.39.05:134][331]LogScript: Warning: Script Msg called by: BP_Ball_C /Engine/Transient.World_2:PersistentLevel.BP_Ball_C_9
+[2024.11.11-10.39.05:238][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.39.05:370][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.39.05:803][331]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.39.05:806][331]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball246919E94BA95B26DE646A84DDB21A9C.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.39.05:823][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 584 ms (total: 27.5 sec)
+[2024.11.11-10.39.05:826][331]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.39.05:826][331]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
+[2024.11.11-10.39.06:811][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.11.11-10.39.13:373][768]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.39.13:399][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.39.13:399][768]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:39:13)
+[2024.11.11-10.39.13:400][768]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.39.13:404][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004104s)
+[2024.11.11-10.39.13:404][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004151s)
+[2024.11.11-10.39.13:416][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.11-10.39.13:418][768]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.39.13:418][768]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.39.13:419][768]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.39.13:419][768]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2024.11.11-10.39.13:419][768]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.39.13:419][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.39.13:419][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.39.13:420][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.39.13:420][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.39.13:420][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.39.13:422][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.39.13:641][768]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.39.13:641][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.39.13:641][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.39.13:641][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.39.13:642][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.11.11-10.39.13:642][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.11.11-10.39.13:644][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.11.11-10.39.13:644][768]LogInit: FAudioDevice initialized with ID 23.
+[2024.11.11-10.39.13:644][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.11.11-10.39.13:644][768]LogAudio: Display: Audio Device (ID: 23) registered with world 'BrickBreaker'.
+[2024.11.11-10.39.13:644][768]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.11-10.39.13:647][768]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.39.13:649][768]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.39.13
+[2024.11.11-10.39.13:649][768]LogWorld: Bringing up level for play took: 0.001844
+[2024.11.11-10.39.13:652][768]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.11.11-10.39.13:654][768]PIE: Server logged in
+[2024.11.11-10.39.13:656][768]PIE: Play in editor total start time 0,257 seconds.
+[2024.11.11-10.39.28:239][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.39.28:239][636]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.39.28:239][636]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.39.28:240][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.39.28:246][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.39.28:251][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.39.28:266][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.39.28:267][636]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.11-10.39.28:267][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.11-10.39.28:269][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.11-10.39.28:279][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.11-10.39.28:456][637]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.11.11-10.39.28:486][637]LogViewport: Scene viewport resized to 472x333, mode Windowed.
+[2024.11.11-10.39.45:158][611]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.39.45:185][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.39.45:185][611]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:39:45)
+[2024.11.11-10.39.45:185][611]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.39.45:190][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005156s)
+[2024.11.11-10.39.45:190][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.005201s)
+[2024.11.11-10.39.45:206][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.11-10.39.45:209][611]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.39.45:209][611]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.39.45:209][611]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.39.45:210][611]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2024.11.11-10.39.45:210][611]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.39.45:210][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.39.45:210][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.39.45:210][611]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.39.45:210][611]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.39.45:210][611]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.39.45:212][611]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.39.45:441][611]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.39.45:441][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.39.45:441][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.39.45:441][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.39.45:442][611]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.11.11-10.39.45:442][611]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.11.11-10.39.45:444][611]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.11.11-10.39.45:444][611]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.11.11-10.39.45:444][611]LogInit: FAudioDevice initialized with ID 24.
+[2024.11.11-10.39.45:444][611]LogAudio: Display: Audio Device (ID: 24) registered with world 'BrickBreaker'.
+[2024.11.11-10.39.45:444][611]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.11.11-10.39.45:448][611]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.39.45:450][611]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.39.45
+[2024.11.11-10.39.45:450][611]LogWorld: Bringing up level for play took: 0.001973
+[2024.11.11-10.39.45:453][611]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.11.11-10.39.45:456][611]PIE: Server logged in
+[2024.11.11-10.39.45:458][611]PIE: Play in editor total start time 0,274 seconds.
+[2024.11.11-10.39.50:627][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.39.50:627][917]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.39.50:628][917]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.39.50:628][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.39.50:633][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.39.50:638][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.39.50:655][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.39.50:656][917]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.11.11-10.39.50:656][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.11.11-10.39.50:659][917]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.11.11-10.39.50:668][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.11.11-10.39.50:767][918]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.11.11-10.40.08:424][923]BlueprintLog: New page: Compile BP_SpawnBall
+[2024.11.11-10.40.08:458][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.11-10.40.08:503][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.40.08:611][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_SpawnBall" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset" SILENT=true
+[2024.11.11-10.40.08:742][923]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_SpawnBall
+[2024.11.11-10.40.08:744][923]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_SpawnBall47D605104D10A5B8E3880DA720382AB2.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset'
+[2024.11.11-10.40.08:760][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 27.7 sec)
+[2024.11.11-10.40.08:762][923]AssetCheck: New page: Asset Save: BP_SpawnBall
+[2024.11.11-10.40.08:762][923]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.40.10:556][ 22]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.40.10:579][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.40.10:579][ 22]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:40:10)
+[2024.11.11-10.40.10:579][ 22]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.40.10:584][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004388s)
+[2024.11.11-10.40.10:584][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004429s)
+[2024.11.11-10.40.10:603][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.11.11-10.40.10:609][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.40.10:609][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.40.10:610][ 22]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.40.10:610][ 22]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2024.11.11-10.40.10:610][ 22]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.40.10:610][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.40.10:610][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.40.10:611][ 22]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.40.10:611][ 22]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.40.10:611][ 22]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.40.10:613][ 22]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.40.10:833][ 22]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.40.10:833][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.40.10:833][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.40.10:833][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.40.10:834][ 22]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.11.11-10.40.10:834][ 22]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.11.11-10.40.10:836][ 22]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.11.11-10.40.10:836][ 22]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.11.11-10.40.10:836][ 22]LogInit: FAudioDevice initialized with ID 25.
+[2024.11.11-10.40.10:836][ 22]LogAudio: Display: Audio Device (ID: 25) registered with world 'BrickBreaker'.
+[2024.11.11-10.40.10:836][ 22]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.11.11-10.40.10:839][ 22]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.40.10:841][ 22]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.40.10
+[2024.11.11-10.40.10:841][ 22]LogWorld: Bringing up level for play took: 0.001776
+[2024.11.11-10.40.10:843][ 22]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.11.11-10.40.10:845][ 22]PIE: Server logged in
+[2024.11.11-10.40.10:846][ 22]PIE: Play in editor total start time 0,267 seconds.
+[2024.11.11-10.40.25:727][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.40.25:727][911]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.40.25:727][911]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.40.25:727][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.40.25:737][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.40.25:741][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.40.25:754][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.40.25:754][911]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.11.11-10.40.25:754][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.11.11-10.40.25:756][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.11.11-10.40.25:765][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.11-10.40.25:862][912]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.11.11-10.40.29:692][137]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-10.40.29:716][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-10.40.29:716][137]PIE: New page: PIE session: BrickBreaker (10 nov. 2024 22:40:29)
+[2024.11.11-10.40.29:716][137]LogPlayLevel: Creating play world package: /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.40.29:720][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004045s)
+[2024.11.11-10.40.29:720][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BrickBreaker/BrickBreaker.BrickBreaker to /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker (0.004088s)
+[2024.11.11-10.40.29:731][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.11-10.40.29:734][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-10.40.29:735][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-10.40.29:735][137]LogAIModule: Creating AISystem for world BrickBreaker
+[2024.11.11-10.40.29:735][137]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2024.11.11-10.40.29:735][137]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-10.40.29:735][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.11-10.40.29:735][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-10.40.29:735][137]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-10.40.29:736][137]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-10.40.29:736][137]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-10.40.29:738][137]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-10.40.29:955][137]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.11-10.40.29:955][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-10.40.29:955][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-10.40.29:955][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-10.40.29:956][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.11.11-10.40.29:956][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.11.11-10.40.29:958][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.11.11-10.40.29:958][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.11.11-10.40.29:958][137]LogInit: FAudioDevice initialized with ID 26.
+[2024.11.11-10.40.29:958][137]LogAudio: Display: Audio Device (ID: 26) registered with world 'BrickBreaker'.
+[2024.11.11-10.40.29:958][137]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.11.11-10.40.29:962][137]LogLoad: Game class is 'GM_BrickBreaker_C'
+[2024.11.11-10.40.29:964][137]LogWorld: Bringing World /Game/BrickBreaker/UEDPIE_0_BrickBreaker.BrickBreaker up for play (max tick rate 60) at 2024.11.11-04.40.29
+[2024.11.11-10.40.29:964][137]LogWorld: Bringing up level for play took: 0.001828
+[2024.11.11-10.40.29:966][137]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.11.11-10.40.29:968][137]PIE: Server logged in
+[2024.11.11-10.40.29:969][137]PIE: Play in editor total start time 0,254 seconds.
+[2024.11.11-10.40.31:927][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.40.31:927][250]LogWorld: BeginTearingDown for /Game/BrickBreaker/UEDPIE_0_BrickBreaker
+[2024.11.11-10.40.31:927][250]LogWorld: UWorld::CleanupWorld for BrickBreaker, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-10.40.31:928][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.40.31:932][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-10.40.31:936][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-10.40.31:955][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-10.40.31:955][250]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.11.11-10.40.31:955][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.11.11-10.40.31:958][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.11.11-10.40.31:967][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.11.11-10.40.32:043][251]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.11.11-10.40.48:409][217]BlueprintLog: New page: Compile BP_SpawnBall
+[2024.11.11-10.40.48:440][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.11-10.40.48:466][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.40.48:649][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_SpawnBall" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset" SILENT=true
+[2024.11.11-10.40.48:776][217]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_SpawnBall
+[2024.11.11-10.40.48:778][217]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_SpawnBall585CB96E4CDFC6A34D939F9065057A4B.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_SpawnBall.uasset'
+[2024.11.11-10.40.48:796][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 330 ms (total: 28.1 sec)
+[2024.11.11-10.40.48:798][217]AssetCheck: New page: Asset Save: BP_SpawnBall
+[2024.11.11-10.40.48:798][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_SpawnBall.BP_SpawnBall
+[2024.11.11-10.40.57:644][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.11-10.40.57:651][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-10.40.57:834][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickBreaker/Blueprints/BP_Ball" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset" SILENT=true
+[2024.11.11-10.40.58:311][740]LogSavePackage: Moving output files for package: /Game/BrickBreaker/Blueprints/BP_Ball
+[2024.11.11-10.40.58:314][740]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BP_Ball260FDDA44BFD2B9A36D5AABBFAFD9937.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/BrickBreaker/Blueprints/BP_Ball.uasset'
+[2024.11.11-10.40.58:346][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 694 ms (total: 28.8 sec)
+[2024.11.11-10.40.58:348][740]AssetCheck: New page: Asset Save: BP_Ball
+[2024.11.11-10.40.58:348][740]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BrickBreaker/Blueprints/BP_Ball.BP_Ball
