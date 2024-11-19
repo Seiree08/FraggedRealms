@@ -1510,3 +1510,553 @@ BUILD FAILED
 [2024.11.19-06.16.11:097][191]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_B8584E85.Box_B8584E85
 [2024.11.19-06.16.11:097][191]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_897AD614.Box_897AD614
 [2024.11.19-06.16.11:097][191]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_E71D81B4.Box_E71D81B4
+[2024.11.19-06.16.49:991][515]Cmd: EDIT COPY
+[2024.11.19-06.16.50:209][528]Cmd: EDIT PASTE
+[2024.11.19-06.17.10:514][713]Cmd: EDIT COPY
+[2024.11.19-06.17.10:766][728]Cmd: EDIT PASTE
+[2024.11.19-06.17.12:513][823]Cmd: DELETE
+[2024.11.19-06.17.12:513][823]Cmd: ACTOR DELETE
+[2024.11.19-06.17.12:515][823]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.17.12:520][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.19-06.17.12:523][823]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.11.19-06.20.26:056][402]Cmd: TRANSACTION UNDO
+[2024.11.19-06.20.26:056][402]LogEditorTransaction: Undo Place Mesh
+[2024.11.19-06.20.28:248][511]Cmd: TRANSACTION UNDO
+[2024.11.19-06.20.28:248][511]LogEditorTransaction: Undo Activate Tool
+[2024.11.19-06.20.43:408][406]Cmd: TRANSACTION UNDO
+[2024.11.19-06.20.43:408][406]LogEditorTransaction: Undo Transform
+[2024.11.19-06.20.44:393][444]Cmd: TRANSACTION UNDO
+[2024.11.19-06.20.44:393][444]LogEditorTransaction: Undo Place Mesh
+[2024.11.19-06.20.44:819][468]Cmd: TRANSACTION UNDO
+[2024.11.19-06.20.44:820][468]LogEditorTransaction: Undo Activate Tool
+[2024.11.19-06.26.08:420][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.19-06.26.08:436][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/9B/N94ZJ6QDMYUCQ8GZVSKSH6_Auto3
+[2024.11.19-06.26.08:436][820]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/N94ZJ6QDMYUCQ8GZVSKSH6_Auto312F25E0440863895512F3387322A4C6F.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/9B/N94ZJ6QDMYUCQ8GZVSKSH6_Auto3.uasset'
+[2024.11.19-06.26.08:461][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/D0/8V3MEW9PBOGE1HCVCN5V5F_Auto3
+[2024.11.19-06.26.08:461][820]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/8V3MEW9PBOGE1HCVCN5V5F_Auto3F798D2BA4449271EA935E08E40EEC554.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/D0/8V3MEW9PBOGE1HCVCN5V5F_Auto3.uasset'
+[2024.11.19-06.26.08:486][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XK/PKVUSQUSFIDZBQGTK56D1Y_Auto3
+[2024.11.19-06.26.08:486][820]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/PKVUSQUSFIDZBQGTK56D1Y_Auto3C2A15617430FA433BD53FDBA6EDA943A.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XK/PKVUSQUSFIDZBQGTK56D1Y_Auto3.uasset'
+[2024.11.19-06.26.08:500][820]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.086
+[2024.11.19-06.26.08:500][820]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.086
+[2024.11.19-06.28.25:830][ 15]Cmd: DELETE
+[2024.11.19-06.28.25:830][ 15]Cmd: ACTOR DELETE
+[2024.11.19-06.28.25:832][ 15]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.28.25:832][ 15]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.28.25:833][ 15]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.28.25:842][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.19-06.28.25:843][ 15]LogEditorActor: Deleted 3 Actors (0.013 secs)
+[2024.11.19-06.28.27:528][112]Cmd: DELETE
+[2024.11.19-06.28.27:528][112]Cmd: ACTOR DELETE
+[2024.11.19-06.28.27:530][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.28.27:535][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.11.19-06.28.27:537][112]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.11.19-06.29.26:803][625]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.Box_03E314A2
+[2024.11.19-06.29.26:804][625]LogStaticMesh: Display: Building static mesh Box_03E314A2...
+[2024.11.19-06.29.26:805][625]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.Box_03E314A2 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C13002_1580484164
+[2024.11.19-06.29.26:807][625]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.Box_03E314A2
+[2024.11.19-06.29.30:384][821]Cmd: EDIT COPY
+[2024.11.19-06.29.30:652][837]Cmd: EDIT PASTE
+[2024.11.19-06.30.56:096][875]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.Box_47B97E83
+[2024.11.19-06.30.56:096][875]LogStaticMesh: Display: Building static mesh Box_47B97E83...
+[2024.11.19-06.30.56:098][875]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.Box_47B97E83 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C13002_1669777166
+[2024.11.19-06.30.56:099][875]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.Box_47B97E83
+[2024.11.19-06.30.58:512][992]Cmd: DELETE
+[2024.11.19-06.30.58:512][992]Cmd: ACTOR DELETE
+[2024.11.19-06.30.58:513][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.30.58:514][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.30.58:522][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.19-06.30.58:524][992]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2024.11.19-06.31.04:746][354]Cmd: EDIT COPY
+[2024.11.19-06.31.04:994][367]Cmd: EDIT PASTE
+[2024.11.19-06.31.22:536][402]Cmd: DELETE
+[2024.11.19-06.31.22:536][402]Cmd: ACTOR DELETE
+[2024.11.19-06.31.22:538][402]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.31.22:538][402]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.31.22:547][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.11.19-06.31.22:548][402]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2024.11.19-06.32.16:578][601]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.Box_53939D45
+[2024.11.19-06.32.16:578][601]LogStaticMesh: Display: Building static mesh Box_53939D45...
+[2024.11.19-06.32.16:580][601]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.Box_53939D45 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C13002_1750259168
+[2024.11.19-06.32.16:580][601]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.Box_53939D45
+[2024.11.19-06.32.17:816][655]Cmd: EDIT COPY
+[2024.11.19-06.32.18:034][668]Cmd: EDIT PASTE
+[2024.11.19-06.32.24:882][ 72]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-06.32.24:913][ 72]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.19-06.32.24:913][ 72]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.19-06.32.24:931][ 72]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 18 ms (total: 39 ms)
+[2024.11.19-06.32.24:931][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-06.32.24:931][ 72]PIE: New page: PIE session: FirstPersonMap (18 nov. 2024 18:32:24)
+[2024.11.19-06.32.24:931][ 72]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.19-06.32.24:936][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004951s)
+[2024.11.19-06.32.24:936][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005016s)
+[2024.11.19-06.32.24:943][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.11.19-06.32.24:945][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-06.32.24:945][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-06.32.24:947][ 72]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.19-06.32.24:948][ 72]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.19-06.32.24:948][ 72]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.19-06.32.24:948][ 72]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.19-06.32.24:948][ 72]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.19-06.32.24:950][ 72]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.19-06.32.24:950][ 72]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 308 ms)
+[2024.11.19-06.32.24:950][ 72]LogPlayLevel: PIE: World Init took: (0.004916s)
+[2024.11.19-06.32.24:950][ 72]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-06.32.24:950][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.19-06.32.24:950][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-06.32.24:951][ 72]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-06.32.24:951][ 72]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-06.32.24:951][ 72]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-06.32.24:954][ 72]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-06.32.25:185][ 72]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.19-06.32.25:185][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-06.32.25:185][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-06.32.25:185][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-06.32.25:187][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.19-06.32.25:187][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.19-06.32.25:189][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.19-06.32.25:189][ 72]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.19-06.32.25:189][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.19-06.32.25:189][ 72]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2024.11.19-06.32.25:189][ 72]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.19-06.32.25:193][ 72]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.19-06.32.25:195][ 72]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.11.19-00.32.25
+[2024.11.19-06.32.25:195][ 72]LogWorld: Bringing up level for play took: 0.002133
+[2024.11.19-06.32.25:199][ 72]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.11.19-06.32.25:201][ 72]PIE: Server logged in
+[2024.11.19-06.32.25:202][ 72]PIE: Play in editor total start time 0,29 seconds.
+[2024.11.19-06.32.43:134][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-06.32.43:134][143]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.19-06.32.43:134][143]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-06.32.43:134][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-06.32.43:134][143]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.19-06.32.43:141][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-06.32.43:146][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-06.32.43:153][143]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.19-06.32.43:154][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.19-06.32.43:154][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.19-06.32.43:158][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.19-06.32.43:166][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-06.32.43:167][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.19-06.32.43:285][144]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.11.19-06.36.27:040][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.19-06.36.27:067][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/KF/YOYEQL2OCA49S8JDH2XSUD_Auto4
+[2024.11.19-06.36.27:067][533]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/YOYEQL2OCA49S8JDH2XSUD_Auto46C9AB2384531492D80527DAEC355A87E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/KF/YOYEQL2OCA49S8JDH2XSUD_Auto4.uasset'
+[2024.11.19-06.36.27:095][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/XF/EL0XY8UMB1AF3WUCGIYK11_Auto4
+[2024.11.19-06.36.27:095][533]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/EL0XY8UMB1AF3WUCGIYK11_Auto4EAEC88404887C54D51919ABB325986D7.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/XF/EL0XY8UMB1AF3WUCGIYK11_Auto4.uasset'
+[2024.11.19-06.36.27:103][533]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.073
+[2024.11.19-06.36.27:103][533]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.073
+[2024.11.19-06.36.27:103][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2] ([1] browsable assets)...
+[2024.11.19-06.36.27:114][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.Box_03E314A2]
+[2024.11.19-06.36.27:114][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2]
+[2024.11.19-06.36.27:338][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2_Auto4
+[2024.11.19-06.36.27:338][533]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_03E314A2_Auto4300B2F4F465F2AF7232EB79C271C9F3C.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2_Auto4.uasset'
+[2024.11.19-06.36.27:342][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83] ([1] browsable assets)...
+[2024.11.19-06.36.27:355][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.Box_47B97E83]
+[2024.11.19-06.36.27:355][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83]
+[2024.11.19-06.36.27:574][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83_Auto4
+[2024.11.19-06.36.27:574][533]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_47B97E83_Auto46FAE3F6E4234A950AB4759B4DD41101E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83_Auto4.uasset'
+[2024.11.19-06.36.27:577][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45] ([1] browsable assets)...
+[2024.11.19-06.36.27:584][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.Box_53939D45]
+[2024.11.19-06.36.27:584][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45]
+[2024.11.19-06.36.27:809][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45_Auto4
+[2024.11.19-06.36.27:809][533]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_53939D45_Auto44CF75EDB4E0DDDE87D6425832A14E905.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45_Auto4.uasset'
+[2024.11.19-06.36.27:810][533]LogFileHelpers: Auto-saving content packages took 0.708
+[2024.11.19-06.43.06:508][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.Box_F6014E18
+[2024.11.19-06.43.06:508][320]LogStaticMesh: Display: Building static mesh Box_F6014E18...
+[2024.11.19-06.43.06:510][320]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.Box_F6014E18 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_1326447346
+[2024.11.19-06.43.06:511][320]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.Box_F6014E18
+[2024.11.19-06.43.07:499][370]Cmd: EDIT COPY
+[2024.11.19-06.43.07:693][381]Cmd: EDIT PASTE
+[2024.11.19-06.44.33:400][250]LogDerivedDataCache: C:/Users/Samue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.606 and deleted 0 files with total size 0 MiB and 51 empty folders. Scanned 11882 files in 14479 folders with total size 1647 MiB.
+[2024.11.19-06.46.28:128][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.19-06.46.28:145][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/CB/RYE0REPUF90EUIG39ELFX8_Auto5
+[2024.11.19-06.46.28:145][593]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/RYE0REPUF90EUIG39ELFX8_Auto5B382C61542A7CE80D74D018CD8C634C6.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/CB/RYE0REPUF90EUIG39ELFX8_Auto5.uasset'
+[2024.11.19-06.46.28:165][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R8/PDZJC6YZ0I4GO49XBZBQA0_Auto5
+[2024.11.19-06.46.28:165][593]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/PDZJC6YZ0I4GO49XBZBQA0_Auto533DD955D4A6C4A0BA25F058C4E9CE97D.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R8/PDZJC6YZ0I4GO49XBZBQA0_Auto5.uasset'
+[2024.11.19-06.46.28:210][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1T/FZQQM5BYSRC1AMPOZYOD6F_Auto5
+[2024.11.19-06.46.28:210][593]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/FZQQM5BYSRC1AMPOZYOD6F_Auto53C2ED6FF4419DED370B9AFB5BC9EFF24.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1T/FZQQM5BYSRC1AMPOZYOD6F_Auto5.uasset'
+[2024.11.19-06.46.28:247][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/TR/Q6G7TBV0L7E9MHKT5LVM60_Auto5
+[2024.11.19-06.46.28:247][593]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Q6G7TBV0L7E9MHKT5LVM60_Auto50B0B2AD345634FAB500D479E2098B79E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/TR/Q6G7TBV0L7E9MHKT5LVM60_Auto5.uasset'
+[2024.11.19-06.46.28:260][593]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.138
+[2024.11.19-06.46.28:260][593]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.138
+[2024.11.19-06.46.28:261][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18] ([1] browsable assets)...
+[2024.11.19-06.46.28:286][593]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.Box_F6014E18]
+[2024.11.19-06.46.28:286][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18]
+[2024.11.19-06.46.28:546][593]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18_Auto5
+[2024.11.19-06.46.28:546][593]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_F6014E18_Auto5395B398842D7AECEF762F6ADF9AB60C8.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18_Auto5.uasset'
+[2024.11.19-06.46.28:550][593]LogFileHelpers: Auto-saving content packages took 0.290
+[2024.11.19-06.46.43:559][963]Cmd: EDIT COPY
+[2024.11.19-06.46.43:791][977]Cmd: EDIT PASTE
+[2024.11.19-06.46.46:712][145]Cmd: DELETE
+[2024.11.19-06.46.46:712][145]Cmd: ACTOR DELETE
+[2024.11.19-06.46.46:713][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.46.46:714][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.46.46:720][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.11.19-06.46.46:721][145]LogEditorActor: Deleted 2 Actors (0.011 secs)
+[2024.11.19-06.46.49:727][317]Cmd: DELETE
+[2024.11.19-06.46.49:727][317]Cmd: ACTOR DELETE
+[2024.11.19-06.46.49:728][317]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.46.49:729][317]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.46.49:734][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.11.19-06.46.49:735][317]LogEditorActor: Deleted 2 Actors (0.009 secs)
+[2024.11.19-06.47.02:502][ 50]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732
+[2024.11.19-06.47.02:502][ 50]LogStaticMesh: Display: Building static mesh Box_C05D5732...
+[2024.11.19-06.47.02:505][ 50]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_1562441350
+[2024.11.19-06.47.02:506][ 50]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732
+[2024.11.19-06.47.06:912][307]Cmd: EDIT COPY
+[2024.11.19-06.47.07:096][318]Cmd: EDIT PASTE
+[2024.11.19-06.47.12:679][637]Cmd: DELETE
+[2024.11.19-06.47.12:679][637]Cmd: ACTOR DELETE
+[2024.11.19-06.47.12:681][637]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.47.12:687][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.19-06.47.12:688][637]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.11.19-06.47.38:624][122]LogStaticMesh: Display: Building static mesh Box_C05D5732...
+[2024.11.19-06.47.38:628][122]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732
+[2024.11.19-06.47.44:348][442]Cmd: DELETE
+[2024.11.19-06.47.44:348][442]Cmd: ACTOR DELETE
+[2024.11.19-06.47.44:350][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.47.44:350][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.47.44:358][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.19-06.47.44:360][442]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2024.11.19-06.52.12:366][352]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.Box_633ECFD7
+[2024.11.19-06.52.12:366][352]LogStaticMesh: Display: Building static mesh Box_633ECFD7...
+[2024.11.19-06.52.12:370][352]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.Box_633ECFD7 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_1872305352
+[2024.11.19-06.52.12:371][352]LogStaticMesh: Built static mesh [0.01s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.Box_633ECFD7
+[2024.11.19-06.55.03:485][489]Cmd: EDIT COPY
+[2024.11.19-06.55.03:819][509]Cmd: EDIT PASTE
+[2024.11.19-06.55.50:204][251]Cmd: EDIT COPY
+[2024.11.19-06.55.50:454][266]Cmd: EDIT PASTE
+[2024.11.19-06.56.05:157][123]Cmd: DELETE
+[2024.11.19-06.56.05:157][123]Cmd: ACTOR DELETE
+[2024.11.19-06.56.05:159][123]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.56.05:160][123]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.19-06.56.05:169][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.19-06.56.05:170][123]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2024.11.19-06.57.05:307][509]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.Box_A41D411F
+[2024.11.19-06.57.05:307][509]LogStaticMesh: Display: Building static mesh Box_A41D411F...
+[2024.11.19-06.57.05:309][509]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.Box_A41D411F as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1091504532
+[2024.11.19-06.57.05:309][509]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.Box_A41D411F
+[2024.11.19-06.57.56:788][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.19-06.57.56:813][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/YA/2HO3CUNVE4GFR01LTW6UYF_Auto6
+[2024.11.19-06.57.56:813][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/2HO3CUNVE4GFR01LTW6UYF_Auto6CFC49228486671FD5863C6BC37F96C87.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/YA/2HO3CUNVE4GFR01LTW6UYF_Auto6.uasset'
+[2024.11.19-06.57.56:841][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3C/BC4XG7HHXNPQFW121XRW9I_Auto6
+[2024.11.19-06.57.56:841][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BC4XG7HHXNPQFW121XRW9I_Auto65EA5737F4658F37A60EDEBA000FA9BFB.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3C/BC4XG7HHXNPQFW121XRW9I_Auto6.uasset'
+[2024.11.19-06.57.56:876][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/HB/863T2I8K3X88UJHLXZWKO2_Auto6
+[2024.11.19-06.57.56:876][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/863T2I8K3X88UJHLXZWKO2_Auto61142B53149AF466447374C8996DB7613.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/HB/863T2I8K3X88UJHLXZWKO2_Auto6.uasset'
+[2024.11.19-06.57.56:914][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/AD/QPKBGEZZW9R4KAYAXASGDX_Auto6
+[2024.11.19-06.57.56:914][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/QPKBGEZZW9R4KAYAXASGDX_Auto647C45BAB451795C7457D6FAE78F5B527.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/AD/QPKBGEZZW9R4KAYAXASGDX_Auto6.uasset'
+[2024.11.19-06.57.56:925][540]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.143
+[2024.11.19-06.57.56:925][540]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.143
+[2024.11.19-06.57.56:926][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732] ([1] browsable assets)...
+[2024.11.19-06.57.56:939][540]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732]
+[2024.11.19-06.57.56:939][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732]
+[2024.11.19-06.57.57:188][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732_Auto6
+[2024.11.19-06.57.57:188][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_C05D5732_Auto6E3EA0B17422795B076730BBD40F6C067.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732_Auto6.uasset'
+[2024.11.19-06.57.57:191][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7] ([1] browsable assets)...
+[2024.11.19-06.57.57:199][540]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.Box_633ECFD7]
+[2024.11.19-06.57.57:199][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7]
+[2024.11.19-06.57.57:439][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7_Auto6
+[2024.11.19-06.57.57:439][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_633ECFD7_Auto64B3246A14396E8C345912791F8D5FAFF.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7_Auto6.uasset'
+[2024.11.19-06.57.57:443][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F] ([1] browsable assets)...
+[2024.11.19-06.57.57:451][540]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.Box_A41D411F]
+[2024.11.19-06.57.57:451][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F]
+[2024.11.19-06.57.57:694][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F_Auto6
+[2024.11.19-06.57.57:694][540]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_A41D411F_Auto6812D7D974289BF99815B0DBB87453102.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F_Auto6.uasset'
+[2024.11.19-06.57.57:697][540]LogFileHelpers: Auto-saving content packages took 0.772
+[2024.11.19-07.01.19:763][435]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.Box_2CB79850
+[2024.11.19-07.01.19:763][435]LogStaticMesh: Display: Building static mesh Box_2CB79850...
+[2024.11.19-07.01.19:766][435]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.Box_2CB79850 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1345960533
+[2024.11.19-07.01.19:766][435]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.Box_2CB79850
+[2024.11.19-07.01.32:724][159]LogStaticMesh: Display: Building static mesh Box_2CB79850...
+[2024.11.19-07.01.32:727][159]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.Box_2CB79850
+[2024.11.19-07.01.45:426][898]Cmd: EDIT COPY
+[2024.11.19-07.01.45:650][911]Cmd: EDIT PASTE
+[2024.11.19-07.01.45:651][911]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2024.11.19-07.01.50:307][175]Cmd: SELECT NONE
+[2024.11.19-07.04.08:549][361]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609.Box_9A420609
+[2024.11.19-07.04.08:549][361]LogStaticMesh: Display: Building static mesh Box_9A420609...
+[2024.11.19-07.04.08:551][361]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609.Box_9A420609 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1514746535
+[2024.11.19-07.04.08:552][361]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609.Box_9A420609
+[2024.11.19-07.05.01:762][425]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3.Box_C94D36E3
+[2024.11.19-07.05.01:762][425]LogStaticMesh: Display: Building static mesh Box_C94D36E3...
+[2024.11.19-07.05.01:765][425]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3.Box_C94D36E3
+[2024.11.19-07.05.01:766][425]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3.Box_C94D36E3 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1567959536
+[2024.11.19-07.05.06:933][718]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-07.05.06:961][718]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.19-07.05.06:961][718]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.11.19-07.05.06:975][718]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 14 ms (total: 54 ms)
+[2024.11.19-07.05.06:975][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-07.05.06:975][718]PIE: New page: PIE session: FirstPersonMap (18 nov. 2024 19:05:06)
+[2024.11.19-07.05.06:976][718]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.19-07.05.06:979][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003847s)
+[2024.11.19-07.05.06:979][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003894s)
+[2024.11.19-07.05.06:986][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.11.19-07.05.06:987][718]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-07.05.06:988][718]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-07.05.06:988][718]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.11.19-07.05.06:989][718]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.19-07.05.06:989][718]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.19-07.05.06:989][718]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.19-07.05.06:989][718]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.19-07.05.06:990][718]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.11.19-07.05.06:990][718]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 309 ms)
+[2024.11.19-07.05.06:990][718]LogPlayLevel: PIE: World Init took: (0.002651s)
+[2024.11.19-07.05.06:990][718]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-07.05.06:990][718]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.19-07.05.06:990][718]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-07.05.06:991][718]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-07.05.06:991][718]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-07.05.06:991][718]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-07.05.06:995][718]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-07.05.07:268][718]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.11.19-07.05.07:269][718]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-07.05.07:269][718]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-07.05.07:269][718]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-07.05.07:271][718]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.11.19-07.05.07:271][718]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.11.19-07.05.07:272][718]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.11.19-07.05.07:272][718]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.11.19-07.05.07:272][718]LogInit: FAudioDevice initialized with ID 4.
+[2024.11.19-07.05.07:272][718]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2024.11.19-07.05.07:272][718]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.19-07.05.07:276][718]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.11.19-07.05.07:279][718]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.11.19-01.05.07
+[2024.11.19-07.05.07:279][718]LogWorld: Bringing up level for play took: 0.001914
+[2024.11.19-07.05.07:283][718]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.11.19-07.05.07:287][718]PIE: Server logged in
+[2024.11.19-07.05.07:288][718]PIE: Play in editor total start time 0,327 seconds.
+[2024.11.19-07.05.37:906][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-07.05.37:906][546]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.11.19-07.05.37:906][546]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-07.05.37:906][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-07.05.37:906][546]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.11.19-07.05.37:910][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-07.05.37:913][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-07.05.37:923][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-07.05.37:923][546]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.19-07.05.37:923][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.19-07.05.37:927][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.19-07.05.37:939][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.11.19-07.05.38:069][547]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.11.19-07.07.43:942][ 10]LogViewport: Scene viewport resized to 887x845, mode Windowed.
+[2024.11.19-07.07.43:970][ 11]LogViewport: Scene viewport resized to 892x845, mode Windowed.
+[2024.11.19-07.07.44:003][ 12]LogViewport: Scene viewport resized to 903x845, mode Windowed.
+[2024.11.19-07.07.44:034][ 13]LogViewport: Scene viewport resized to 910x845, mode Windowed.
+[2024.11.19-07.07.44:067][ 14]LogViewport: Scene viewport resized to 913x845, mode Windowed.
+[2024.11.19-07.07.44:117][ 16]LogViewport: Scene viewport resized to 914x845, mode Windowed.
+[2024.11.19-07.07.44:141][ 17]LogViewport: Scene viewport resized to 917x845, mode Windowed.
+[2024.11.19-07.07.44:166][ 18]LogViewport: Scene viewport resized to 919x845, mode Windowed.
+[2024.11.19-07.07.44:198][ 19]LogViewport: Scene viewport resized to 923x845, mode Windowed.
+[2024.11.19-07.07.44:226][ 20]LogViewport: Scene viewport resized to 927x845, mode Windowed.
+[2024.11.19-07.07.44:254][ 21]LogViewport: Scene viewport resized to 928x845, mode Windowed.
+[2024.11.19-07.07.44:282][ 22]LogViewport: Scene viewport resized to 929x845, mode Windowed.
+[2024.11.19-07.07.44:304][ 23]LogViewport: Scene viewport resized to 930x845, mode Windowed.
+[2024.11.19-07.07.44:333][ 24]LogViewport: Scene viewport resized to 934x845, mode Windowed.
+[2024.11.19-07.07.44:358][ 25]LogViewport: Scene viewport resized to 937x845, mode Windowed.
+[2024.11.19-07.07.44:487][ 32]LogViewport: Scene viewport resized to 939x845, mode Windowed.
+[2024.11.19-07.07.44:511][ 33]LogViewport: Scene viewport resized to 945x845, mode Windowed.
+[2024.11.19-07.07.44:539][ 34]LogViewport: Scene viewport resized to 950x845, mode Windowed.
+[2024.11.19-07.07.44:568][ 35]LogViewport: Scene viewport resized to 954x845, mode Windowed.
+[2024.11.19-07.07.44:876][ 53]LogViewport: Scene viewport resized to 953x845, mode Windowed.
+[2024.11.19-07.07.44:901][ 54]LogViewport: Scene viewport resized to 952x845, mode Windowed.
+[2024.11.19-07.07.44:927][ 55]LogViewport: Scene viewport resized to 949x845, mode Windowed.
+[2024.11.19-07.07.44:952][ 56]LogViewport: Scene viewport resized to 947x845, mode Windowed.
+[2024.11.19-07.07.44:977][ 57]LogViewport: Scene viewport resized to 944x845, mode Windowed.
+[2024.11.19-07.07.45:002][ 58]LogViewport: Scene viewport resized to 940x845, mode Windowed.
+[2024.11.19-07.07.45:036][ 59]LogViewport: Scene viewport resized to 938x845, mode Windowed.
+[2024.11.19-07.07.45:061][ 60]LogViewport: Scene viewport resized to 935x845, mode Windowed.
+[2024.11.19-07.07.45:083][ 61]LogViewport: Scene viewport resized to 931x845, mode Windowed.
+[2024.11.19-07.07.45:114][ 62]LogViewport: Scene viewport resized to 929x845, mode Windowed.
+[2024.11.19-07.07.45:140][ 63]LogViewport: Scene viewport resized to 927x845, mode Windowed.
+[2024.11.19-07.07.45:296][ 72]LogViewport: Scene viewport resized to 925x845, mode Windowed.
+[2024.11.19-07.07.45:323][ 73]LogViewport: Scene viewport resized to 922x845, mode Windowed.
+[2024.11.19-07.07.45:348][ 74]LogViewport: Scene viewport resized to 919x845, mode Windowed.
+[2024.11.19-07.07.45:379][ 75]LogViewport: Scene viewport resized to 918x845, mode Windowed.
+[2024.11.19-07.07.46:322][131]LogViewport: Scene viewport resized to 915x845, mode Windowed.
+[2024.11.19-07.07.46:350][132]LogViewport: Scene viewport resized to 914x845, mode Windowed.
+[2024.11.19-07.07.46:388][133]LogViewport: Scene viewport resized to 912x845, mode Windowed.
+[2024.11.19-07.07.46:418][134]LogViewport: Scene viewport resized to 910x845, mode Windowed.
+[2024.11.19-07.07.46:448][135]LogViewport: Scene viewport resized to 908x845, mode Windowed.
+[2024.11.19-07.07.46:473][136]LogViewport: Scene viewport resized to 904x845, mode Windowed.
+[2024.11.19-07.07.46:499][137]LogViewport: Scene viewport resized to 902x845, mode Windowed.
+[2024.11.19-07.07.46:525][138]LogViewport: Scene viewport resized to 898x845, mode Windowed.
+[2024.11.19-07.07.46:556][139]LogViewport: Scene viewport resized to 894x845, mode Windowed.
+[2024.11.19-07.07.46:591][140]LogViewport: Scene viewport resized to 889x845, mode Windowed.
+[2024.11.19-07.07.46:628][141]LogViewport: Scene viewport resized to 884x845, mode Windowed.
+[2024.11.19-07.07.46:657][142]LogViewport: Scene viewport resized to 874x845, mode Windowed.
+[2024.11.19-07.07.46:699][143]LogViewport: Scene viewport resized to 867x845, mode Windowed.
+[2024.11.19-07.07.46:726][144]LogViewport: Scene viewport resized to 859x845, mode Windowed.
+[2024.11.19-07.07.46:755][145]LogViewport: Scene viewport resized to 852x845, mode Windowed.
+[2024.11.19-07.07.46:784][146]LogViewport: Scene viewport resized to 844x845, mode Windowed.
+[2024.11.19-07.07.46:814][147]LogViewport: Scene viewport resized to 836x845, mode Windowed.
+[2024.11.19-07.07.46:848][148]LogViewport: Scene viewport resized to 828x845, mode Windowed.
+[2024.11.19-07.07.46:877][149]LogViewport: Scene viewport resized to 821x845, mode Windowed.
+[2024.11.19-07.07.46:919][150]LogViewport: Scene viewport resized to 810x845, mode Windowed.
+[2024.11.19-07.07.46:949][151]LogViewport: Scene viewport resized to 802x845, mode Windowed.
+[2024.11.19-07.07.46:985][152]LogViewport: Scene viewport resized to 793x845, mode Windowed.
+[2024.11.19-07.07.47:012][153]LogViewport: Scene viewport resized to 792x845, mode Windowed.
+[2024.11.19-07.07.47:045][154]LogViewport: Scene viewport resized to 789x845, mode Windowed.
+[2024.11.19-07.07.47:114][157]LogViewport: Scene viewport resized to 787x845, mode Windowed.
+[2024.11.19-07.07.47:137][158]LogViewport: Scene viewport resized to 785x845, mode Windowed.
+[2024.11.19-07.07.47:167][159]LogViewport: Scene viewport resized to 783x845, mode Windowed.
+[2024.11.19-07.07.47:197][160]LogViewport: Scene viewport resized to 781x845, mode Windowed.
+[2024.11.19-07.07.47:225][161]LogViewport: Scene viewport resized to 779x845, mode Windowed.
+[2024.11.19-07.07.47:251][162]LogViewport: Scene viewport resized to 778x845, mode Windowed.
+[2024.11.19-07.07.47:285][163]LogViewport: Scene viewport resized to 776x845, mode Windowed.
+[2024.11.19-07.07.47:309][164]LogViewport: Scene viewport resized to 772x845, mode Windowed.
+[2024.11.19-07.07.47:340][165]LogViewport: Scene viewport resized to 770x845, mode Windowed.
+[2024.11.19-07.07.47:371][166]LogViewport: Scene viewport resized to 767x845, mode Windowed.
+[2024.11.19-07.07.47:402][167]LogViewport: Scene viewport resized to 765x845, mode Windowed.
+[2024.11.19-07.07.47:451][169]LogViewport: Scene viewport resized to 764x845, mode Windowed.
+[2024.11.19-07.07.47:760][187]LogViewport: Scene viewport resized to 766x845, mode Windowed.
+[2024.11.19-07.07.47:788][188]LogViewport: Scene viewport resized to 770x845, mode Windowed.
+[2024.11.19-07.07.47:815][189]LogViewport: Scene viewport resized to 774x845, mode Windowed.
+[2024.11.19-07.07.47:842][190]LogViewport: Scene viewport resized to 778x845, mode Windowed.
+[2024.11.19-07.07.47:872][191]LogViewport: Scene viewport resized to 781x845, mode Windowed.
+[2024.11.19-07.07.47:899][192]LogViewport: Scene viewport resized to 784x845, mode Windowed.
+[2024.11.19-07.07.47:919][193]LogViewport: Scene viewport resized to 785x845, mode Windowed.
+[2024.11.19-07.07.47:958][195]LogViewport: Scene viewport resized to 787x845, mode Windowed.
+[2024.11.19-07.07.47:985][196]LogViewport: Scene viewport resized to 788x845, mode Windowed.
+[2024.11.19-07.07.48:010][197]LogViewport: Scene viewport resized to 789x845, mode Windowed.
+[2024.11.19-07.07.48:039][198]LogViewport: Scene viewport resized to 792x845, mode Windowed.
+[2024.11.19-07.07.48:297][213]LogViewport: Scene viewport resized to 793x845, mode Windowed.
+[2024.11.19-07.07.48:337][215]LogViewport: Scene viewport resized to 795x845, mode Windowed.
+[2024.11.19-07.07.48:366][216]LogViewport: Scene viewport resized to 797x845, mode Windowed.
+[2024.11.19-07.07.48:389][217]LogViewport: Scene viewport resized to 799x845, mode Windowed.
+[2024.11.19-07.07.48:422][218]LogViewport: Scene viewport resized to 801x845, mode Windowed.
+[2024.11.19-07.07.48:452][219]LogViewport: Scene viewport resized to 804x845, mode Windowed.
+[2024.11.19-07.07.49:424][277]LogViewport: Scene viewport resized to 808x845, mode Windowed.
+[2024.11.19-07.07.49:455][278]LogViewport: Scene viewport resized to 813x845, mode Windowed.
+[2024.11.19-07.07.49:488][279]LogViewport: Scene viewport resized to 824x845, mode Windowed.
+[2024.11.19-07.07.49:527][280]LogViewport: Scene viewport resized to 835x845, mode Windowed.
+[2024.11.19-07.07.49:559][281]LogViewport: Scene viewport resized to 843x845, mode Windowed.
+[2024.11.19-07.07.49:590][282]LogViewport: Scene viewport resized to 852x845, mode Windowed.
+[2024.11.19-07.07.49:622][283]LogViewport: Scene viewport resized to 856x845, mode Windowed.
+[2024.11.19-07.07.49:649][284]LogViewport: Scene viewport resized to 858x845, mode Windowed.
+[2024.11.19-07.07.50:911][359]LogViewport: Scene viewport resized to 859x845, mode Windowed.
+[2024.11.19-07.07.50:939][360]LogViewport: Scene viewport resized to 862x845, mode Windowed.
+[2024.11.19-07.07.50:964][361]LogViewport: Scene viewport resized to 863x845, mode Windowed.
+[2024.11.19-07.07.50:996][362]LogViewport: Scene viewport resized to 865x845, mode Windowed.
+[2024.11.19-07.07.51:072][366]LogViewport: Scene viewport resized to 866x845, mode Windowed.
+[2024.11.19-07.07.51:094][367]LogViewport: Scene viewport resized to 867x845, mode Windowed.
+[2024.11.19-07.07.51:133][369]LogViewport: Scene viewport resized to 868x845, mode Windowed.
+[2024.11.19-07.07.51:172][371]LogViewport: Scene viewport resized to 869x845, mode Windowed.
+[2024.11.19-07.07.52:245][435]LogViewport: Scene viewport resized to 872x845, mode Windowed.
+[2024.11.19-07.07.52:275][436]LogViewport: Scene viewport resized to 880x845, mode Windowed.
+[2024.11.19-07.07.52:299][437]LogViewport: Scene viewport resized to 894x845, mode Windowed.
+[2024.11.19-07.07.52:350][438]LogViewport: Scene viewport resized to 903x845, mode Windowed.
+[2024.11.19-07.07.52:398][439]LogViewport: Scene viewport resized to 908x845, mode Windowed.
+[2024.11.19-07.07.52:454][442]LogViewport: Scene viewport resized to 909x845, mode Windowed.
+[2024.11.19-07.07.52:480][443]LogViewport: Scene viewport resized to 911x845, mode Windowed.
+[2024.11.19-07.07.52:510][444]LogViewport: Scene viewport resized to 914x845, mode Windowed.
+[2024.11.19-07.07.52:538][445]LogViewport: Scene viewport resized to 917x845, mode Windowed.
+[2024.11.19-07.07.52:566][446]LogViewport: Scene viewport resized to 919x845, mode Windowed.
+[2024.11.19-07.07.52:617][447]LogViewport: Scene viewport resized to 922x845, mode Windowed.
+[2024.11.19-07.07.52:692][451]LogViewport: Scene viewport resized to 923x845, mode Windowed.
+[2024.11.19-07.07.58:268][776]LogViewport: Scene viewport resized to 922x845, mode Windowed.
+[2024.11.19-07.07.58:294][777]LogViewport: Scene viewport resized to 918x845, mode Windowed.
+[2024.11.19-07.07.58:317][778]LogViewport: Scene viewport resized to 913x845, mode Windowed.
+[2024.11.19-07.07.58:340][779]LogViewport: Scene viewport resized to 912x845, mode Windowed.
+[2024.11.19-07.07.58:372][780]LogViewport: Scene viewport resized to 909x845, mode Windowed.
+[2024.11.19-07.07.58:420][782]LogViewport: Scene viewport resized to 908x845, mode Windowed.
+[2024.11.19-07.07.58:476][785]LogViewport: Scene viewport resized to 905x845, mode Windowed.
+[2024.11.19-07.07.58:500][786]LogViewport: Scene viewport resized to 906x845, mode Windowed.
+[2024.11.19-07.07.58:528][787]LogViewport: Scene viewport resized to 904x845, mode Windowed.
+[2024.11.19-07.07.58:622][792]LogViewport: Scene viewport resized to 902x845, mode Windowed.
+[2024.11.19-07.08.00:463][902]LogViewport: Scene viewport resized to 903x845, mode Windowed.
+[2024.11.19-07.08.00:489][903]LogViewport: Scene viewport resized to 905x845, mode Windowed.
+[2024.11.19-07.08.00:652][912]LogViewport: Scene viewport resized to 907x845, mode Windowed.
+[2024.11.19-07.08.00:894][926]LogViewport: Scene viewport resized to 908x845, mode Windowed.
+[2024.11.19-07.08.01:015][933]LogViewport: Scene viewport resized to 909x845, mode Windowed.
+[2024.11.19-07.08.01:256][947]LogViewport: Scene viewport resized to 911x845, mode Windowed.
+[2024.11.19-07.08.01:462][959]LogViewport: Scene viewport resized to 910x845, mode Windowed.
+[2024.11.19-07.08.01:585][966]LogViewport: Scene viewport resized to 912x845, mode Windowed.
+[2024.11.19-07.08.01:641][969]LogViewport: Scene viewport resized to 913x845, mode Windowed.
+[2024.11.19-07.08.01:901][984]LogViewport: Scene viewport resized to 914x845, mode Windowed.
+[2024.11.19-07.08.02:042][992]LogViewport: Scene viewport resized to 915x845, mode Windowed.
+[2024.11.19-07.08.02:070][993]LogViewport: Scene viewport resized to 917x845, mode Windowed.
+[2024.11.19-07.08.21:069][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.11.19-07.08.21:087][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-07.08.21:235][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.11.19-07.08.21:245][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.19-07.08.21:254][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.19-07.08.21:275][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/CB/RYE0REPUF90EUIG39ELFX8
+[2024.11.19-07.08.21:277][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/RYE0REPUF90EUIG39ELFX8D41FF24B42A3B023375065A9A7956568.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/CB/RYE0REPUF90EUIG39ELFX8.uasset'
+[2024.11.19-07.08.21:292][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0Z/8PW2BY2XPMC04KF46J5NN0
+[2024.11.19-07.08.21:295][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/8PW2BY2XPMC04KF46J5NN0BB5492934AF95212D82B67ADF738FBA4.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0Z/8PW2BY2XPMC04KF46J5NN0.uasset'
+[2024.11.19-07.08.21:310][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/G2/X23T818K4UFV8UH4PN35D9
+[2024.11.19-07.08.21:312][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/X23T818K4UFV8UH4PN35D9ACB53CE3408EDF11020627B66D0CE033.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/G2/X23T818K4UFV8UH4PN35D9.uasset'
+[2024.11.19-07.08.21:331][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R8/PDZJC6YZ0I4GO49XBZBQA0
+[2024.11.19-07.08.21:333][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/PDZJC6YZ0I4GO49XBZBQA0EFBED3B949A1BF501366C9937D191094.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R8/PDZJC6YZ0I4GO49XBZBQA0.uasset'
+[2024.11.19-07.08.21:349][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/YA/2HO3CUNVE4GFR01LTW6UYF
+[2024.11.19-07.08.21:349][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/2HO3CUNVE4GFR01LTW6UYF5D1DDBD248EA6C6A48D09C9D7CA2DC5D.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/YA/2HO3CUNVE4GFR01LTW6UYF.uasset'
+[2024.11.19-07.08.21:374][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3C/BC4XG7HHXNPQFW121XRW9I
+[2024.11.19-07.08.21:374][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/BC4XG7HHXNPQFW121XRW9I055987204CD5F7040B03A9A7D4DDB5C1.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/3C/BC4XG7HHXNPQFW121XRW9I.uasset'
+[2024.11.19-07.08.21:399][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/HB/863T2I8K3X88UJHLXZWKO2
+[2024.11.19-07.08.21:399][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/863T2I8K3X88UJHLXZWKO234452952457EDA87775FAD81A148CAF5.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/HB/863T2I8K3X88UJHLXZWKO2.uasset'
+[2024.11.19-07.08.21:429][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/AD/QPKBGEZZW9R4KAYAXASGDX
+[2024.11.19-07.08.21:429][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/QPKBGEZZW9R4KAYAXASGDX4779339849D4EDC0741E2785630AF0F6.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/AD/QPKBGEZZW9R4KAYAXASGDX.uasset'
+[2024.11.19-07.08.21:457][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Y0/IW2OPATSNMD1R4M32BY037
+[2024.11.19-07.08.21:457][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/IW2OPATSNMD1R4M32BY03769FA37574815E2E89E4227B7524F168B.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Y0/IW2OPATSNMD1R4M32BY037.uasset'
+[2024.11.19-07.08.21:485][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/G6/6EBGRAMBKG5J309J0TNIMT
+[2024.11.19-07.08.21:485][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/6EBGRAMBKG5J309J0TNIMTC80AC80E4618D7E9AEDE9E8DAAB68B64.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/G6/6EBGRAMBKG5J309J0TNIMT.uasset'
+[2024.11.19-07.08.21:511][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/76/ETK95DUXR3NV6K4TS6Z7RS
+[2024.11.19-07.08.21:511][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/ETK95DUXR3NV6K4TS6Z7RS4C34E97E4483491D5C820CA6FC4040EB.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/76/ETK95DUXR3NV6K4TS6Z7RS.uasset'
+[2024.11.19-07.08.21:534][121]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6A/MBHF4L02PJ52ZXWO3X2FH4
+[2024.11.19-07.08.21:534][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/MBHF4L02PJ52ZXWO3X2FH4F03E312C494EAB12869BA989B9F75155.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6A/MBHF4L02PJ52ZXWO3X2FH4.uasset'
+[2024.11.19-07.08.21:769][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2
+[2024.11.19-07.08.21:769][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_03E314A20FE4767747E8C33A863D3E9036D7C5D9.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.uasset'
+[2024.11.19-07.08.22:002][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83
+[2024.11.19-07.08.22:002][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_47B97E83C29CF36048019840E4BA6AADED505EC0.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.uasset'
+[2024.11.19-07.08.22:249][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45
+[2024.11.19-07.08.22:249][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_53939D45CA8B877B4B01B23FA6BBBE889D25CC1C.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.uasset'
+[2024.11.19-07.08.22:484][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18
+[2024.11.19-07.08.22:484][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_F6014E186389526041686FA961001B83A16EBAC3.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.uasset'
+[2024.11.19-07.08.22:712][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732
+[2024.11.19-07.08.22:712][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_C05D573267A5AB64474F5A6BAA1ADA98ED69BB26.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.uasset'
+[2024.11.19-07.08.22:946][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7
+[2024.11.19-07.08.22:946][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_633ECFD7FB9C97ED400B4465626B878D7BB3B2EB.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.uasset'
+[2024.11.19-07.08.23:174][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F
+[2024.11.19-07.08.23:174][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_A41D411FFD05CB484BE1CA9284971B83B27F3731.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.uasset'
+[2024.11.19-07.08.23:445][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850
+[2024.11.19-07.08.23:445][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_2CB7985083B687A14D65319D8AA4A1890E292362.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.uasset'
+[2024.11.19-07.08.23:692][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609
+[2024.11.19-07.08.23:692][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_9A4206092171566749459F534B39D6958192A1ED.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609.uasset'
+[2024.11.19-07.08.23:934][121]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3
+[2024.11.19-07.08.23:934][121]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Box_C94D36E30911005B440E0D7C4EF352B652F6A18D.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3.uasset'
+[2024.11.19-07.08.23:957][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.87 sec (total: 4.89 sec)
+[2024.11.19-07.08.23:966][121]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09322F02_2029794931
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09BF3002_2022160799
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09BF3002_2037048800
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C03002_1584683980
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_1562441350
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_1872305352
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C23002_2043759353
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1091504532
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1345960533
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1371851534
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1514746535
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1567959536
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_03E314A2.Box_03E314A2
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_47B97E83.Box_47B97E83
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_53939D45.Box_53939D45
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_F6014E18.Box_F6014E18
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C05D5732.Box_C05D5732
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_633ECFD7.Box_633ECFD7
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_A41D411F.Box_A41D411F
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_2CB79850.Box_2CB79850
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_9A420609.Box_9A420609
+[2024.11.19-07.08.23:966][121]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/Samue/Box_C94D36E3.Box_C94D36E3
