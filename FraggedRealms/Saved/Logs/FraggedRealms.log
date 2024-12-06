@@ -1272,3 +1272,625 @@ BUILD FAILED
 [2024.12.06-10.51.21:900][  2]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
 [2024.12.06-10.51.22:930][  5]LogSlate: Took 0.000875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2024.12.06-10.51.38:286][ 53]LogNiagara: Error: GPU particle read could not find GPU context for 'NS_WaterInteractive.ShallowWaterCollisionParticles', emitter either doesn't exist or is not a GPU simulation.
+[2024.12.06-10.51.43:314][326]LogSlate: Took 0.001417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.06-10.52.08:708][828]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-10.52.17:652][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.12.06-10.52.21:012][354]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.06-10.52.21:041][354]LogUObjectGlobals: Force Deleting 6 Package(s):
+	Asset Name: /Game/Texturas/Vidrio/M_Glass.M_Glass
+	Asset Type: Material
+	Asset Name: /Game/Texturas/Vidrio/Glass_normal.Glass_normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Texturas/Vidrio/Glass_normal3.Glass_normal3
+	Asset Type: Texture2D
+	Asset Name: /Game/Texturas/Vidrio/Glass_normal2.Glass_normal2
+	Asset Type: Texture2D
+	Asset Name: /Game/Texturas/Vidrio/Vidrio1.Vidrio1
+	Asset Type: Material
+	Asset Name: /Game/Texturas/Arcade_Carpet_Textures_-_1/CarpetArcadeTest.CarpetArcadeTest
+	Asset Type: Texture2D
+[2024.12.06-10.52.21:213][354]LogMaterial: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Texturas\Vidrio\Vidrio1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.52.21:213][354]LogMaterial: Warning: Vidrio1: Requesting an invalid TextureIndex! (1 / 1)
+[2024.12.06-10.52.21:215][354]LogMaterial: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Texturas\Vidrio\Vidrio1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.52.21:279][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.06-10.52.21:285][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.12.06-10.52.21:291][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.12.06-10.52.27:864][727]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.12.06-10.52.27:864][727]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.12.06-10.52.29:742][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\M_Glass_Inst.uasset: Failed to load '/Game/Texturas/Vidrio/M_Glass': Can't find file.
+[2024.12.06-10.52.29:742][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\M_Glass_Inst.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Vidrio/M_Glass'
+[2024.12.06-10.52.29:744][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: Failed to load '/Game/Texturas/Vidrio/Glass_normal': Can't find file.
+[2024.12.06-10.52.29:744][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Vidrio/Glass_normal'
+[2024.12.06-10.52.29:744][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: Failed to load '/Game/Texturas/Vidrio/Glass_normal2': Can't find file.
+[2024.12.06-10.52.29:744][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Vidrio/Glass_normal2'
+[2024.12.06-10.52.29:745][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: Failed to load '/Game/Texturas/Vidrio/Glass_normal3': Can't find file.
+[2024.12.06-10.52.29:745][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Vidrio/Glass_normal3'
+[2024.12.06-10.52.29:748][826]LogMaterial: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.52.29:749][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1_Inst.uasset: Failed to load '/Game/Texturas/Vidrio/Vidrio1': Can't find file.
+[2024.12.06-10.52.29:749][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\Glass\Vidrio1_Inst.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Vidrio/Vidrio1'
+[2024.12.06-10.52.29:764][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\ParedRetro\Carpet.uasset: Failed to load '/Game/Texturas/Arcade_Carpet_Textures_-_1/CarpetArcadeTest': Can't find file.
+[2024.12.06-10.52.29:764][826]LogLinker: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\ParedRetro\Carpet.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Texturas/Arcade_Carpet_Textures_-_1/CarpetArcadeTest'
+[2024.12.06-10.52.29:766][826]LogMaterial: Warning: [AssetLog] D:\UnrealProyects\FraggedRealms\FraggedRealms\FraggedRealms\Content\Save\Textures\ParedRetro\Carpet.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.52.30:080][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.52.30:236][826]LogPackageLocalizationCache: Processed 47 localized package path(s) for 2 prioritized culture(s) in 0.009478 seconds
+[2024.12.06-10.52.30:527][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_Color
+[2024.12.06-10.52.30:527][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_Color45232C7946D33F547559BF93C9F19F4A.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_Color.uasset'
+[2024.12.06-10.52.30:596][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_Displacement
+[2024.12.06-10.52.30:596][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_Displacement6B97381A48D4B2A2209AB897B6A5F4FB.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_Displacement.uasset'
+[2024.12.06-10.52.30:654][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_Metalness
+[2024.12.06-10.52.30:654][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_Metalness9E52D7EB4A40CC9C7DFA0A96F0E75E7B.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_Metalness.uasset'
+[2024.12.06-10.52.31:170][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_NormalDX
+[2024.12.06-10.52.31:171][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_NormalDX46542C0140B2B5466864D2B81A888BA3.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_NormalDX.uasset'
+[2024.12.06-10.52.31:624][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_NormalGL
+[2024.12.06-10.52.31:624][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_NormalGL950F5F5744E4CD2B20CC21955EBFBC91.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_NormalGL.uasset'
+[2024.12.06-10.52.31:730][826]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/Metal027_2K-PNG_Roughness
+[2024.12.06-10.52.31:730][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Metal027_2K-PNG_RoughnessD1FE273F468D86B56BA81FAFF317E3FE.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/Metal027_2K-PNG_Roughness.uasset'
+[2024.12.06-10.52.31:756][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.67 sec
+[2024.12.06-10.52.31:783][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.12.06-10.52.31:791][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.12.06-10.52.31:797][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.12.06-10.52.31:858][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.52.31:960][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/Glass_normal" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal.uasset" SILENT=true
+[2024.12.06-10.52.31:974][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/Glass_normal
+[2024.12.06-10.52.31:974][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Glass_normal96C497FA4162F087561EEA8C263B2464.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal.uasset'
+[2024.12.06-10.52.31:995][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/Glass_normal2" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal2.uasset" SILENT=true
+[2024.12.06-10.52.32:050][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/Glass_normal2
+[2024.12.06-10.52.32:050][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Glass_normal2A14D1D4F4F7A7107A2C0C6B0965F156E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal2.uasset'
+[2024.12.06-10.52.32:058][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/Glass_normal3" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal3.uasset" SILENT=true
+[2024.12.06-10.52.32:102][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/Glass_normal3
+[2024.12.06-10.52.32:102][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Glass_normal3483C7A3F45E910E0AECC91B0BA9E7226.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Glass_normal3.uasset'
+[2024.12.06-10.52.32:104][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/M_Glass" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/M_Glass.uasset" SILENT=true
+[2024.12.06-10.52.32:288][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/M_Glass
+[2024.12.06-10.52.32:288][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_GlassB7A876C64D717B94A0A16CBC548CC9C3.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/M_Glass.uasset'
+[2024.12.06-10.52.32:291][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/M_Glass_Inst" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/M_Glass_Inst.uasset" SILENT=true
+[2024.12.06-10.52.32:303][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/M_Glass_Inst
+[2024.12.06-10.52.32:303][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_Glass_Inst344C2BD54E2391409A196BA3E73C4BD1.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/M_Glass_Inst.uasset'
+[2024.12.06-10.52.32:306][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/Vidrio1" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Vidrio1.uasset" SILENT=true
+[2024.12.06-10.52.32:689][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/Vidrio1
+[2024.12.06-10.52.32:689][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Vidrio19CFC323E4A21F8C98A4C0A872AE148E8.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Vidrio1.uasset'
+[2024.12.06-10.52.32:693][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/Vidrio1_Inst" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Vidrio1_Inst.uasset" SILENT=true
+[2024.12.06-10.52.32:708][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/Vidrio1_Inst
+[2024.12.06-10.52.32:708][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Vidrio1_Inst7A09048F4E6ABE3548AE93A040D06BE1.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/Vidrio1_Inst.uasset'
+[2024.12.06-10.52.32:712][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Glass/VidrioTransparente" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/VidrioTransparente.uasset" SILENT=true
+[2024.12.06-10.52.33:184][826]LogSavePackage: Moving output files for package: /Game/Textures/Glass/VidrioTransparente
+[2024.12.06-10.52.33:184][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/VidrioTransparente4A456EDF495715FB01B7F8AE792DBD90.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/Glass/VidrioTransparente.uasset'
+[2024.12.06-10.52.33:214][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.35 sec (total: 3.03 sec)
+[2024.12.06-10.52.33:246][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.12.06-10.52.33:255][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.12.06-10.52.33:262][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.06-10.52.33:308][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.52.33:402][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ParedRetro/Carpet" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/Carpet.uasset" SILENT=true
+[2024.12.06-10.52.33:534][826]LogSavePackage: Moving output files for package: /Game/Textures/ParedRetro/Carpet
+[2024.12.06-10.52.33:534][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/CarpetCFED8DE449E2F57A3560379412BBD0F5.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/Carpet.uasset'
+[2024.12.06-10.52.33:553][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ParedRetro/CarpetArcadeTest" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/CarpetArcadeTest.uasset" SILENT=true
+[2024.12.06-10.52.33:568][826]LogSavePackage: Moving output files for package: /Game/Textures/ParedRetro/CarpetArcadeTest
+[2024.12.06-10.52.33:568][826]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/CarpetArcadeTestDBF587BD4CFD84BDCFF8D3A1667153D4.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/CarpetArcadeTest.uasset'
+[2024.12.06-10.52.33:588][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 280 ms (total: 3.31 sec)
+[2024.12.06-10.52.33:602][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.06-10.52.33:610][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.12.06-10.52.33:617][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.12.06-10.52.33:683][826]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_Color.Metal027_2K-PNG_Color
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_Displacement.Metal027_2K-PNG_Displacement
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_Metalness.Metal027_2K-PNG_Metalness
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_NormalDX.Metal027_2K-PNG_NormalDX
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_NormalGL.Metal027_2K-PNG_NormalGL
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/BlackMetal/Metal027_2K-PNG_Roughness.Metal027_2K-PNG_Roughness
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Glass/Glass_normal.Glass_normal
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Glass/Glass_normal2.Glass_normal2
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Glass/Glass_normal3.Glass_normal3
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Glass/M_Glass.M_Glass
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Textures/Glass/M_Glass_Inst.M_Glass_Inst
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Glass/Vidrio1.Vidrio1
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Textures/Glass/Vidrio1_Inst.Vidrio1_Inst
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Glass/VidrioTransparente.VidrioTransparente
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/ParedRetro/Carpet.Carpet
+[2024.12.06-10.52.33:683][826]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/ParedRetro/CarpetArcadeTest.CarpetArcadeTest
+[2024.12.06-10.52.44:006][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.12.06-10.52.45:296][428]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.06-10.52.45:322][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.12.06-10.52.45:333][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.12.06-10.52.45:343][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.12.06-10.53.23:968][ 95]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Textures/ParedRetro/Carpet.Carpet
+[2024.12.06-10.53.23:971][ 95]LogMaterial: Warning: [AssetLog] /Engine/Transient.Carpet: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.53.23:974][ 95]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-10.53.23:974][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-10.53.24:504][ 95]LogMaterial: Warning: [AssetLog] /Engine/Transient.Carpet: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.53.24:508][ 95]LogMaterial: Warning: [AssetLog] /Engine/Transient.Carpet: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.12.06-10.53.24:575][ 95]MaterialEditorStats: Error: [SM6] (Node TextureSample) Texture Sample> Missing input texture
+[2024.12.06-10.53.24:588][ 95]LogSlate: Took 0.001900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.12.06-10.53.24:598][ 95]LogViewport: Scene viewport resized to 590x421, mode Windowed.
+[2024.12.06-10.53.27:478][229]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.53.27:478][229]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.53.27:478][229]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.53.28:636][276]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.12.06-10.53.28:636][276]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.12.06-10.53.28:636][276]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.06-10.53.28:636][276]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.53.28:636][276]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.53.30:443][344]LogDerivedDataCache: C:/Users/Samue/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:28.342 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 14908 files in 17208 folders with total size 1350 MiB.
+[2024.12.06-10.53.36:325][657]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.53.36:326][657]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.53.36:326][657]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.53.36:385][659]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.12.06-10.53.36:385][659]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.12.06-10.53.36:385][659]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.06-10.53.36:385][659]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.53.36:385][659]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.53.38:003][739]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.53.38:003][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.38:003][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.38:003][739]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.53.38:429][753]MaterialEditorStats: Texture samplers: 1/16
+[2024.12.06-10.53.38:430][753]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.38:430][753]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.38:430][753]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.53.38:632][761]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.53.38:632][761]MaterialEditorStats: Texture samplers: 1/16
+[2024.12.06-10.53.38:632][761]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.38:632][761]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.38:632][761]MaterialEditorStats: Shader Count: 3
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.38:749][765]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.53.39:799][813]LogMaterialEditor: Applying material Carpet
+[2024.12.06-10.53.39:908][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.12.06-10.53.40:442][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.12.06-10.53.40:461][813]MaterialEditorStats: Texture samplers: 1/16
+[2024.12.06-10.53.40:461][813]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.40:461][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.40:461][813]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.40:500][814]MaterialEditorStats: Shader Count: 6
+[2024.12.06-10.53.40:819][829]LogMaterialEditor: Saving and Compiling material Carpet
+[2024.12.06-10.53.40:824][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.53.42:148][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ParedRetro/Carpet" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/Carpet.uasset" SILENT=true
+[2024.12.06-10.53.42:276][829]LogSavePackage: Moving output files for package: /Game/Textures/ParedRetro/Carpet
+[2024.12.06-10.53.42:278][829]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Carpet39DF0D7F4A197096DF13578A2D95D7AC.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/ParedRetro/Carpet.uasset'
+[2024.12.06-10.53.42:297][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.47 sec (total: 4.78 sec)
+[2024.12.06-10.53.42:300][829]AssetCheck: New page: Asset Save: Carpet
+[2024.12.06-10.53.42:300][829]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/ParedRetro/Carpet.Carpet
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: MaxSampler: 247 instructions
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: Texture samplers: 4/16
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.53.42:301][829]MaterialEditorStats: Shader Count: 16
+[2024.12.06-10.53.45:744][980]LogViewport: Scene viewport resized to 588x435, mode Windowed.
+[2024.12.06-10.53.45:936][982]LogViewport: Scene viewport resized to 235x138, mode Windowed.
+[2024.12.06-10.53.46:542][ 17]LogViewport: Scene viewport resized to 590x421, mode Windowed.
+[2024.12.06-10.53.46:972][ 42]LogSlate: Window 'Carpet' being destroyed
+[2024.12.06-10.53.49:682][194]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.12.06-10.54.27:838][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-10.54.42:931][309]Cmd: SELECT NONE
+[2024.12.06-10.54.57:206][126]Cmd: SELECT NONE
+[2024.12.06-10.55.16:468][834]LogAssetTools: Warning: Failed to import 'C:\Users\Samue\Downloads\Fence.uasset'. Unknown extension 'uasset'.
+[2024.12.06-10.56.22:158][701]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.12.06-10.56.22:173][701]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.12.06-10.56.22:185][702]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.12.06-10.56.52:503][518]LogContentBrowser: Attempting asset rename: NewMaterial -> M_A_Piso1
+[2024.12.06-10.56.52:511][518]LogContentBrowser: End creating deferred item NewMaterial
+[2024.12.06-10.56.56:234][737]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Textures/BlackMetal/M_A_Piso1.M_A_Piso1
+[2024.12.06-10.56.56:240][737]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-10.56.56:240][737]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-10.56.56:498][737]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.56.56:498][737]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.56.56:498][737]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.56.56:502][737]LogViewport: Scene viewport resized to 590x421, mode Windowed.
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: ================================================
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Total job queries 62, among them cache hits 31 (50.00%)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Tracking 31 distinct input hashes that result in 26 distinct outputs (83.87%)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: RAM used: 726,31 KiB of 819,20 MiB budget. Usage: 0.09%
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Shaders Compiled: 20
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Average time worker was idle: 4.72 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.09 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Job execution time: average 0.79 s, max 1.10 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Job life time (pending + execution): average 0.84 s, max 1.19
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Shader code size: average 40,98 KiB, min 29,664 KiB, max 61,551 KiB
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.31 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Average processing rate: 6.04 jobs/sec
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Total thread time: 8,667 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Total thread preprocess time: 1,134 s
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Percentage time preprocessing: 13.09%
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Effective parallelization: 2.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.80% of total time (compiled    2 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.84% of total time (compiled    2 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.70% of total time (compiled    2 times, average 0.46 sec, max 0.48 sec, min 0.45 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.07% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.66% of total time (compiled    1 times, average 0.58 sec, max 0.58 sec, min 0.58 sec)
+[2024.12.06-10.56.56:537][738]LogShaderCompilers: Display: ================================================
+[2024.12.06-10.56.56:566][739]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.12.06-10.56.56:566][739]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.12.06-10.56.56:566][739]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.06-10.56.56:566][739]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.12.06-10.56.56:566][739]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.57.24:406][327]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.57.24:406][327]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.57.24:406][327]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.24:406][327]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.24:517][329]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.57.26:492][437]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.57.26:492][437]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.12.06-10.57.26:492][437]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.26:492][437]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: Texture samplers: 4/16
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.27:901][520]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.57.30:376][664]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.57.30:376][664]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.06-10.57.30:376][664]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.30:376][664]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.57.30:679][679]MaterialEditorStats: Texture samplers: 2/16
+[2024.12.06-10.57.30:679][679]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.06-10.57.30:679][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.30:679][679]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: Base pass shader: 201 instructions
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.30:882][691]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.57.32:992][809]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.57.32:992][809]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.12.06-10.57.32:992][809]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.32:992][809]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.57.33:342][829]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.57.33:342][829]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.12.06-10.57.33:342][829]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.33:342][829]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.33:618][845]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.57.35:189][934]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.57.35:189][934]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.57.35:189][934]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.35:189][934]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.57.35:445][946]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.57.35:445][946]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.57.35:445][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.35:446][946]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.57.35:663][959]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.58.02:125][502]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.02:125][502]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.02:125][502]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.02:125][502]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.02:976][549]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.58.02:976][549]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.02:976][549]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.02:976][549]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.58.03:080][555]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.03:080][555]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.58.03:080][555]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.03:080][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.03:080][555]MaterialEditorStats: Shader Count: 3
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.03:095][556]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.58.22:694][720]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.22:694][720]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.22:694][720]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.22:695][720]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.23:020][737]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.58.23:020][737]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.23:020][737]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.23:020][737]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: Texture samplers: 6/16
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.23:223][749]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.58.29:132][ 91]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.29:132][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.29:132][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.29:132][ 91]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.29:839][128]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.29:839][128]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.29:839][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.29:839][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.29:839][128]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.29:971][136]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.58.31:016][194]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.31:018][194]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.31:018][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.31:018][194]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.31:082][195]MaterialEditorStats: Shader Count: 10
+[2024.12.06-10.58.32:451][276]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.32:451][276]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.32:451][276]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.32:451][276]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.32:877][300]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.58.32:878][300]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.32:878][300]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.32:878][300]MaterialEditorStats: Shader Count: 3
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.33:076][312]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.58.34:905][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.12.06-10.58.34:910][421]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.58.35:035][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/G2/X23T818K4UFV8UH4PN35D9
+[2024.12.06-10.58.35:037][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/X23T818K4UFV8UH4PN35D9C529D6DF4EB0A3F65C124FA2C1178DF8.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/G2/X23T818K4UFV8UH4PN35D9.uasset'
+[2024.12.06-10.58.35:054][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Y0/IW2OPATSNMD1R4M32BY037
+[2024.12.06-10.58.35:056][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/IW2OPATSNMD1R4M32BY0377FED9C294F6A7BA54A025BB0058A72E3.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Y0/IW2OPATSNMD1R4M32BY037.uasset'
+[2024.12.06-10.58.35:073][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W8/0XPDM23PPSV5RDKTAJIY57
+[2024.12.06-10.58.35:075][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/0XPDM23PPSV5RDKTAJIY5729BF425A48337005820745813E9A0401.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W8/0XPDM23PPSV5RDKTAJIY57.uasset'
+[2024.12.06-10.58.35:092][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6A/MBHF4L02PJ52ZXWO3X2FH4
+[2024.12.06-10.58.35:093][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/MBHF4L02PJ52ZXWO3X2FH49E00A98643C9B364C73F4E85884A7912.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6A/MBHF4L02PJ52ZXWO3X2FH4.uasset'
+[2024.12.06-10.58.35:112][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0Z/8PW2BY2XPMC04KF46J5NN0
+[2024.12.06-10.58.35:114][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/8PW2BY2XPMC04KF46J5NN0FEE68E3040F28FCFEB2F8D9452C71ED8.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0Z/8PW2BY2XPMC04KF46J5NN0.uasset'
+[2024.12.06-10.58.35:132][421]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R3/Q7XHGA3NKULY08581ZQ28V
+[2024.12.06-10.58.35:134][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/Q7XHGA3NKULY08581ZQ28VF32897FD45010D89CCDE4A8A8DBFD78E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/R3/Q7XHGA3NKULY08581ZQ28V.uasset'
+[2024.12.06-10.58.35:148][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/BlackMetal/M_A_Piso1" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset" SILENT=true
+[2024.12.06-10.58.35:161][421]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/M_A_Piso1
+[2024.12.06-10.58.35:161][421]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_A_Piso17F71DE8249C9DA0480540BB3CEEA1D8E.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset'
+[2024.12.06-10.58.35:190][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 279 ms (total: 5.06 sec)
+[2024.12.06-10.58.35:194][421]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09BF3002_2037048800
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1345960533
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE091E2F02_1199472407
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C33002_1567959536
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09BF3002_2022160799
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC366BE09C83002_1825274445
+[2024.12.06-10.58.35:194][421]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/BlackMetal/M_A_Piso1.M_A_Piso1
+[2024.12.06-10.58.36:623][503]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.36:623][503]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.36:623][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.36:623][503]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.36:695][505]MaterialEditorStats: Shader Count: 12
+[2024.12.06-10.58.38:684][622]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.38:684][622]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.38:684][622]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.38:684][622]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.39:094][645]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.58.39:094][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.39:094][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.39:094][645]MaterialEditorStats: Shader Count: 3
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.39:311][658]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.58.46:016][ 53]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.46:016][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.46:016][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.46:016][ 53]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.46:085][ 55]MaterialEditorStats: Shader Count: 12
+[2024.12.06-10.58.56:109][645]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.58.56:109][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.56:109][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.56:109][645]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.58.56:150][646]MaterialEditorStats: Texture samplers: 1/16
+[2024.12.06-10.58.56:150][646]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.56:150][646]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.56:150][646]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.58.56:167][647]MaterialEditorStats: Shader Count: 12
+[2024.12.06-10.59.02:695][ 19]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.02:695][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.02:695][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.02:695][ 19]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.02:752][ 21]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.59.02:753][ 21]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.02:753][ 21]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.02:753][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.02:753][ 21]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.02:753][ 21]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.04:933][145]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.04:933][145]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.04:933][145]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.04:933][145]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.04:994][147]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.06:833][252]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.06:833][252]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.06:833][252]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.06:833][252]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.06:903][254]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.10:520][460]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.10:520][460]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.10:520][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.10:520][460]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.10:589][462]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.12:663][578]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.12:663][578]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.12:663][578]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.12:663][578]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.12:728][580]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.16:838][815]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.16:838][815]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.16:838][815]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.16:838][815]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.17:440][847]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.17:440][847]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.17:440][847]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.17:440][847]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.17:440][847]MaterialEditorStats: Shader Count: 1
+[2024.12.06-10.59.17:645][858]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.17:645][858]MaterialEditorStats: Texture samplers: 3/16
+[2024.12.06-10.59.17:645][858]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.17:645][858]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.17:645][858]MaterialEditorStats: Shader Count: 5
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.17:960][877]MaterialEditorStats: Shader Count: 12
+[2024.12.06-10.59.25:533][330]LogMaterialEditor: Applying material M_A_Piso1
+[2024.12.06-10.59.25:621][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.12.06-10.59.26:227][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.12.06-10.59.26:239][330]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.06-10.59.26:239][330]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.26:239][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.26:239][330]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.26:260][331]MaterialEditorStats: Shader Count: 8
+[2024.12.06-10.59.26:907][368]LogMaterialEditor: Saving and Compiling material M_A_Piso1
+[2024.12.06-10.59.26:910][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.59.28:195][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/BlackMetal/M_A_Piso1" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset" SILENT=true
+[2024.12.06-10.59.28:320][368]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/M_A_Piso1
+[2024.12.06-10.59.28:322][368]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_A_Piso18FA49B0F40F6AA5411C44CAFD8E53D78.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset'
+[2024.12.06-10.59.28:343][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.43 sec (total: 6.49 sec)
+[2024.12.06-10.59.28:344][368]AssetCheck: New page: Asset Save: M_A_Piso1
+[2024.12.06-10.59.28:344][368]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/BlackMetal/M_A_Piso1.M_A_Piso1
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: MaxSampler: 277 instructions
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: Texture samplers: 8/16
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.28:346][368]MaterialEditorStats: Shader Count: 33
+[2024.12.06-10.59.31:976][584]MaterialEditorStats: Texture samplers: 0/16
+[2024.12.06-10.59.31:976][584]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.31:976][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.31:976][584]MaterialEditorStats: Shader Count: 0
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.32:024][586]MaterialEditorStats: Shader Count: 4
+[2024.12.06-10.59.33:170][654]LogMaterialEditor: Applying material M_A_Piso1
+[2024.12.06-10.59.33:262][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.12.06-10.59.33:532][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.12.06-10.59.33:553][654]MaterialEditorStats: Texture samplers: 5/16
+[2024.12.06-10.59.33:553][654]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.33:553][654]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.33:553][654]MaterialEditorStats: Shader Count: 2
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: Texture samplers: 7/16
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.33:576][655]MaterialEditorStats: Shader Count: 6
+[2024.12.06-10.59.33:956][676]LogMaterialEditor: Saving and Compiling material M_A_Piso1
+[2024.12.06-10.59.33:961][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.59.34:096][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/BlackMetal/M_A_Piso1" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset" SILENT=true
+[2024.12.06-10.59.34:239][676]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/M_A_Piso1
+[2024.12.06-10.59.34:241][676]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_A_Piso1628DFB1A4AE4116D1268CC9570B23563.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1.uasset'
+[2024.12.06-10.59.34:258][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 6.79 sec)
+[2024.12.06-10.59.34:260][676]AssetCheck: New page: Asset Save: M_A_Piso1
+[2024.12.06-10.59.34:260][676]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/BlackMetal/M_A_Piso1.M_A_Piso1
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: MaxSampler: 277 instructions
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: Texture samplers: 8/16
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.12.06-10.59.34:261][676]MaterialEditorStats: Shader Count: 33
+[2024.12.06-10.59.40:015][995]LogContentBrowser: Deferred new asset file creation: M_A_Piso1_Inst
+[2024.12.06-10.59.40:030][995]LogContentBrowser: Creating deferred item: M_A_Piso1_Inst
+[2024.12.06-10.59.40:051][996]LogContentBrowser: Renaming the item being created (Deferred Item: M_A_Piso1_Inst).
+[2024.12.06-10.59.45:441][320]LogContentBrowser: Attempting asset rename: M_A_Piso1_Inst -> M_A_Piso1_Inst
+[2024.12.06-10.59.45:442][320]LogContentBrowser: End creating deferred item M_A_Piso1_Inst
+[2024.12.06-10.59.48:533][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.06-10.59.48:536][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-10.59.48:648][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/BlackMetal/M_A_Piso1_Inst" FILE="D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1_Inst.uasset" SILENT=true
+[2024.12.06-10.59.48:688][503]LogSavePackage: Moving output files for package: /Game/Textures/BlackMetal/M_A_Piso1_Inst
+[2024.12.06-10.59.48:688][503]LogSavePackage: Moving 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Saved/M_A_Piso1_Inst01FB63014AFD6DD5D925C8BECDADECE4.tmp' to 'D:/UnrealProyects/FraggedRealms/FraggedRealms/FraggedRealms/Content/Textures/BlackMetal/M_A_Piso1_Inst.uasset'
+[2024.12.06-10.59.48:707][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 6.96 sec)
+[2024.12.06-10.59.48:708][503]AssetCheck: New page: Asset Save: M_A_Piso1_Inst
+[2024.12.06-10.59.48:708][503]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Textures/BlackMetal/M_A_Piso1_Inst.M_A_Piso1_Inst
